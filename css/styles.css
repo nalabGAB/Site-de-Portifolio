@@ -1,32 +1,48 @@
-/* Fonts */
-/* Poppins */
+/* fontes */
+/* poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* consolas */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
-/* Customization */
+/* geral */
+:root {
+    --main-color: white;
+}
+
 * {
     margin: 0px;
     font-family: Poppins;
-    color: white;
+    color: var(--main-color)
 }
+
+/* header */
 
 header {
     background-color: #070707;
+    
+    i {
+        position: absolute;
+        top: calc(0% + 5px);
+        right: 1%;
+    }
 }
 
-header > button {
-    border: none;
-    background-color: #070707;
-    width ;
+#theme-icon {
+    font-size: 43px;
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.1s ease; /* Transição na opacidade */
+}
 
-    position: absolute;
-    top: 0%;
-    right: 0%;
+#theme-icon.fade-out {
+    opacity: 0; /* Torna o ícone invisível antes de mudar */
 }
 
 nav {
     font-size: 2cap;
     display: flex;
     justify-content: center;
+    gap: 25px;
 
     a {
         text-decoration: none;
@@ -39,12 +55,35 @@ nav {
     }
 }
 
+/* body */
+
 body {
     background-color: #0C0C0C;
 }
 
-.intro {
-    font-size: 3em;
+.home-container {
     display: flex;
     justify-content: center;
+    margin-top: 10%;
+}
+
+.intro {
+    float: left;
+    width: 50%;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;            
+    justify-content: space-evenly;
+}
+
+.icone-eu {
+    float: left;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;            
+    justify-content: space-evenly;
+    img {
+        width: 75%;
+    };
 }
