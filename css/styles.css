@@ -18,6 +18,24 @@
     color: var(--main-color)
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--sec-color); 
+    border-radius: 10px;
+}
+
+img {
+    user-select: none;
+}
+
 /* header */
 
 header {
@@ -116,4 +134,8 @@ body {
 
 .home-title {
     font-size: 2cap;
+}
+
+.home-about > p {
+    align-content: space-evenly;
 }
