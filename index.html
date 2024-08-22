@@ -6,9 +6,15 @@
     <title>Portifólio</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
+        <div class="social-icons">
+            <a href="https://github.com/nalabGAB" target="_blank"><i id="github-icon" class="fa fa-github" style="font-size: 33px;"></i></a>
+            <a href="https://www.linkedin.com/in/gabriel-azanha-balan-7b23b52b6" target="_blank"><i id="linkedin-icon" class="fa fa-linkedin" style="font-size: 33px;"></i></a>
+        </div>
+
         <nav>
             <a href="#home" onclick="scrollToSection(event, 'home')">Home</a>
             <a href="#about" onclick="scrollToSection(event, 'about')">About</a>
@@ -27,19 +33,29 @@
             <div class="intro">
                 <h1>
                     Hi,<br>
-                    I'm <span style="color: springgreen">Gabriel</span><br>
+                    I'm <span style="color: var(--sec-color)">Gabriel</span><br>
                     <span style="font-family: Inconsolata">System Developer</span>
                 </h1>
             </div>
 
             <div class="icone-eu">
-                <img src="assets/nicola.png">
+                <img src="assets/image-eu.png">
             </div>
         </div>
     </section>
 
     <section id="about">
-        
+        <div class="about-container">
+            <div class="home-title">
+                <h1>Gabriel "nalab" Azanha Balan</h1>
+            </div>
+            <div class="home-about">
+                <p>I am currently studying System Devlopment at a vocational-technical high-school. 
+                    I want to focus on learning about Artificial Intelligence and Machine Learning.
+                    My main skills are: English, Python, HTML, CSS, JavaScript, MySQL.</p>
+            </div>
+                    
+        </div>
     </section>
 
     <section id="skills">

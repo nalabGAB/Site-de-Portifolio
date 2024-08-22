@@ -21,12 +21,14 @@ function pageTheme() {
             header.style = "background-color: #e6e6e6"
             body.style = "background-color: #f3f3f3"
             geral.style.setProperty('--main-color', 'black')
+            geral.style.setProperty('--sec-color', 'mediumseagreen')
 
         } else {
             icon.textContent = 'dark_mode';
             header.style = "background-color: #070707"
             body.style = "background-color: #0C0C0C"
             geral.style.setProperty('--main-color', 'white')
+            geral.style.setProperty('--sec-color', 'springgreen')
         }
 
         icon.classList.remove('fade-out');
