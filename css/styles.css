@@ -1,11 +1,11 @@
-/* fontes */
+/* fontes -------------------------------------------------------*/
 
 /* poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* consolas */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
-/* geral */
+/* geral -------------------------------------------------------*/
 
 :root {
     --main-color: white;
@@ -16,6 +16,10 @@
     margin: 0px;
     font-family: Poppins;
     color: var(--main-color)
+}
+
+a {
+    text-decoration: none;
 }
 
 ::-webkit-scrollbar {
@@ -36,39 +40,58 @@ img {
     user-select: none;
 }
 
-/* header */
+/* header -------------------------------------------------------*/
 
 header {
     background-color: #070707;
-    
-    i#theme-icon {
-        position: absolute;
-        top: calc(0% + 5px);
-        right: 1%;
-    }
 }
-
-.social-icons {
-    width: 5%;
+    
+#github-icon {
     position: absolute;
     top: 10px;
     left: 1%;
     user-select: none;
-    
-    #github-icon {
-        margin-right: 15px;
-    }
+}
+
+#linkedin-icon{
+    position: absolute;
+    top: 10px;
+    left: calc(3% + 15px);
+    user-select: none;
+}
+
+#monkeytype-icon{
+    position: absolute;
+    top: 10px;
+    left: calc(5% + 30px);
+    user-select: none;
+}
+
+#language-icon {
+    position: absolute;
+    top: calc(0% + 6px);
+    right: calc(3% + 30px);
+    border: white solid;
+    transition: opacity 0.2s ease;
+    cursor: pointer;
+    user-select: none;
+}
+
+#language-icon.fade-out {
+    opacity: 0;
 }
 
 #theme-icon {
-    font-size: 43px;
+    position: absolute;
+    top: calc(0% + 5px);
+    right: 1%;
     cursor: pointer;
     user-select: none;
-    transition: opacity 0.1s ease; /* Transição na opacidade */
+    transition: opacity 0.2s ease;
 }
 
 #theme-icon.fade-out {
-    opacity: 0; /* Torna o ícone invisível antes de mudar */
+    opacity: 0;
 }
 
 nav {
@@ -78,7 +101,6 @@ nav {
     gap: 25px;
 
     a {
-        text-decoration: none;
         padding: 10px;
     }
 
@@ -88,13 +110,13 @@ nav {
     }
 }
 
-/* body */
+/* body -------------------------------------------------------*/
 
 body {
     background-color: #0C0C0C;
 }
 
-/* home */
+/* home -------------------------------------------------------*/
 
 .home-container {
     display: flex;
@@ -123,7 +145,8 @@ body {
     };
 }
 
-/* about */
+/* about -------------------------------------------------------*/
+
 .about-container {
     margin-top: 11%;
     margin-left: 10%;
@@ -138,4 +161,24 @@ body {
 
 .home-about > p {
     align-content: space-evenly;
+}
+
+/* footer -------------------------------------------------------*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #070707;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+    a {
+        color: var(--sec-color);
+        font-weight: bold;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
