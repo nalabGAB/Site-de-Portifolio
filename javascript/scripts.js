@@ -82,7 +82,7 @@ function pageLanguage() {
                                                                         'Quero me focar em aprender sobre desenvolvimento Back-End, principalmente Inteligência Artificial ' +
                                                                         'e Aprendizado de Máquina. Minhas principais habilidades são: Inglês, Python, HTML, CSS, JavaScript, MySQL.';
 
-            document.querySelector('footer p').innerHTML = 'Site feito por <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> para o <a href="https://github.com/nalabGAB" target="_blank">GitHub</a>'
+            document.querySelector('footer p').innerHTML = 'Site feito por <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> para o <a href="https://www.netlify.com" target="_blank">netlify</a>'
         } else {
             icon.classList.remove('fi-br');
             icon.classList.add('fi-gb');
@@ -101,7 +101,7 @@ function pageLanguage() {
                                                                         'I want to focus on learning about Back-End development, mainly Artificial Intelligence ' +
                                                                         'and Machine Learning. My main skills are: English, Python, HTML, CSS, JavaScript, MySQL.';
             
-            document.querySelector('footer p').innerHTML = 'Site made by <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> for <a href="https://github.com/nalabGAB" target="_blank">GitHub</a>'
+            document.querySelector('footer p').innerHTML = 'Site made by <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify</a>'
         }
 
         icon.classList.remove('fade-out');
