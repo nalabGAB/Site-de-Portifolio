@@ -40,6 +40,10 @@ img {
     user-select: none;
 }
 
+body {
+    margin-bottom: 25px !important;
+}
+
 /* header -------------------------------------------------------*/
 
 header {
@@ -53,11 +57,21 @@ header {
     user-select: none;
 }
 
+#github-icon:hover {
+    transition: 0.3s;
+    opacity: 0.5;
+}
+
 #linkedin-icon{
     position: absolute;
     top: 10px;
     left: calc(3% + 15px);
     user-select: none;
+}
+
+#linkedin-icon:hover {
+    transition: 0.3s;
+    opacity: 0.5;
 }
 
 #monkeytype-icon{
@@ -67,14 +81,24 @@ header {
     user-select: none;
 }
 
+#monkeytype-icon:hover {
+    transition: 0.3s;
+    opacity: 0.5;
+}
+
 #language-icon {
     position: absolute;
     top: calc(0% + 6px);
     right: calc(3% + 30px);
     border: white solid;
-    transition: opacity 0.2s ease;
+    transition: opacity 0.15s ease;
     cursor: pointer;
     user-select: none;
+}
+
+#language-icon:hover {
+    transition: 0.3s;
+    transform: scale(1.1, 1.1);
 }
 
 #language-icon.fade-out {
@@ -87,7 +111,12 @@ header {
     right: 1%;
     cursor: pointer;
     user-select: none;
-    transition: opacity 0.2s ease;
+    transition: opacity 0.15s ease;
+}
+
+#theme-icon:hover {
+    transition: 0.3s;
+    transform: scale(1.1, 1.1);
 }
 
 #theme-icon.fade-out {

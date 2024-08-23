@@ -38,25 +38,23 @@ function pageTheme() {
         }
 
         icon.classList.remove('fade-out');
-    }, 200);
+    }, 150);
 }
 
 function pageLanguage() {
     const icon = document.getElementById('language-icon');
 
     const translationsENPT = {
-        'Home': 'Início',
         'About': 'Sobre',
-        'Skills': 'Habilidades',
+        'Skills': 'Competências',
         'Projects': 'Projetos',
         'Certificates': 'Certificados',
         'Contact': 'Contato'
     };
 
     const translationsPTEN = {
-        'Início': 'Home',
         'Sobre': 'About',
-        'Habilidades': 'Skills',
+        'Competências': 'Skills',
         'Projetos': 'Projects',
         'Certificados': 'Certificates',
         'Contato': 'Contact'
@@ -78,7 +76,7 @@ function pageLanguage() {
 
             document.querySelector('#home h1').innerHTML = 'Olá,<br>Sou <span style="color: var(--sec-color)">Gabriel</span><br><span style="font-family: Inconsolata">Desenvolvedor de Sistemas</span>';
     
-            document.querySelector('#about .home-about p').innerHTML = 'Atualmente estudo Desenvolvimento de Sistemas em uma escola técnica. ' + 
+            document.querySelector('#about .home-about p').innerHTML = 'Atualmente estou no ensino médio, estudando em uma escola com técnico integrado de Desenvolvimento de Sistemas. ' + 
                                                                         'Quero me focar em aprender sobre desenvolvimento Back-End, principalmente Inteligência Artificial ' +
                                                                         'e Aprendizado de Máquina. Minhas principais habilidades são: Inglês, Python, HTML, CSS, JavaScript, MySQL.';
 
@@ -105,5 +103,5 @@ function pageLanguage() {
         }
 
         icon.classList.remove('fade-out');
-    }, 200);
+    }, 150);
 }
