@@ -1,10 +1,3 @@
-function scrollToSection(event, sectionId) {
-    event.preventDefault();
-    document.getElementById(sectionId).scrollIntoView({ 
-        behavior: 'smooth' 
-    });
-}
-
 function pageTheme() {
     const icon = document.getElementById('theme-icon');
     icon.classList.add('fade-out');
@@ -76,11 +69,11 @@ function pageLanguage() {
 
             document.querySelector('#home h1').innerHTML = 'Olá,<br>Sou <span style="color: var(--sec-color)">Gabriel</span><br><span style="font-family: Inconsolata">Desenvolvedor de Sistemas</span>';
     
-            document.querySelector('#about .home-about p').innerHTML = 'Atualmente estou no ensino médio, estudando em uma escola com técnico integrado de Desenvolvimento de Sistemas. ' + 
-                                                                        'Quero me focar em aprender sobre desenvolvimento Back-End, principalmente Inteligência Artificial ' +
-                                                                        'e Aprendizado de Máquina. Minhas principais habilidades são: Inglês, Python, HTML, CSS, JavaScript, MySQL.';
-
+            document.querySelector('#about .about-text p').innerHTML = 'Atualmente estou no ensino médio, estudando em uma escola com técnico integrado de Desenvolvimento de Sistemas. Quero me focar em aprender sobre desenvolvimento Back-End: principalmente Inteligência Artificial e Aprendizado de Máquina. Eu adoro passar o tempo me desafiando a programar novos projetos. Eu sou capaz de me adaptar a novos desafios e projetos. Minhas principais habilidades são: Inglês, Python, HTML, CSS, JavaScript, MySQL.';
+            
             document.querySelector('footer p').innerHTML = 'Site feito por <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> para o <a href="https://www.netlify.com" target="_blank">netlify</a>'
+
+            document.querySelector('#').innerHTML =
         } else {
             icon.classList.remove('fi-br');
             icon.classList.add('fi-gb');
@@ -95,9 +88,7 @@ function pageLanguage() {
 
             document.querySelector('#home h1').innerHTML = 'Hi,<br>I\'m <span style="color: var(--sec-color)">Gabriel</span><br><span style="font-family: Inconsolata">System Developer</span>';
     
-            document.querySelector('#about .home-about p').innerHTML = 'I am currently studying System Devlopment at a vocational-technical high-school. ' + 
-                                                                        'I want to focus on learning about Back-End development, mainly Artificial Intelligence ' +
-                                                                        'and Machine Learning. My main skills are: English, Python, HTML, CSS, JavaScript, MySQL.';
+            document.querySelector('#about .about-text p').innerHTML = 'I am currently studying System Devlopment at a vocational-technical high-school. I want to focus on learning about Back-End development, mainly Artificial Intelligence and Machine Learning. I love spending time challenging myself with coding projects. I\'m capable of adapting to new challenges and projects. My main skills are: English, Python, HTML, CSS, JavaScript, MySQL.';
             
             document.querySelector('footer p').innerHTML = 'Site made by <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify</a>'
         }
