@@ -44,6 +44,10 @@ body {
     margin-bottom: 25px !important;
 }
 
+section {
+    margin-bottom: 10em;
+}
+
 /* header -------------------------------------------------------*/
 
 header {
@@ -180,10 +184,9 @@ body {
 .about-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 10em;
 }
 
-.about-title {
+.titles {
     margin-bottom: 1em;
     font-size: 3em;
     text-align: center;
@@ -196,11 +199,12 @@ body {
 
 .about-text {
     float: left;
+    flex-direction: column;
     width: 30%;
     margin-right: 5%;
-    flex-direction: column;            
-    justify-content: space-evenly;
+    transform: translateY(20%);
     h1 {
+        align-content: space-evenly;
         font-size: 2em;
     };
 
@@ -241,3 +245,6 @@ footer {
         text-decoration: underline;
     }
 }
+
+/* skills ------------------------------------------------------*/
+
