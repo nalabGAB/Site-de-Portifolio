@@ -71,20 +71,20 @@ function pageLanguage() {
             document.querySelector('#home h1').innerHTML = 'Olá,<br>Sou <span style="color: var(--sec-color)">Gabriel</span><br><span style="font-family: Inconsolata">Desenvolvedor de Sistemas</span>';
 
             // ABOUT
-            document.querySelector('#about .titles h1').innerHTML = 'Sobre Mim';
+            document.querySelector('#about .title h1').innerHTML = 'Sobre Mim';
             document.querySelector('#about .about-text p').innerHTML = 'Atualmente estou no ensino médio, estudando em uma escola com técnico integrado de Desenvolvimento de Sistemas. Quero me focar em aprender sobre desenvolvimento Back-End: principalmente Inteligência Artificial e Aprendizado de Máquina. Eu adoro passar o tempo me desafiando a programar novos projetos, e sou capaz de me adaptar a novos desafios e projetos. Minhas principais habilidades são: Inglês, Python, HTML, CSS, JavaScript, MySQL.';
 
             // SKILLS
-            document.querySelector('#skills .titles h1').innerHTML = 'Competências';
+            document.querySelector('#skills .title h1').innerHTML = 'Competências';
 
             // PROJECTS
-            document.querySelector('#projects .titles h1').innerHTML = 'Projetos';
+            document.querySelector('#projects .title h1').innerHTML = 'Projetos';
 
             // CERTIFICATES
-            document.querySelector('#certificates .titles h1').innerHTML = 'Premiações';
+            document.querySelector('#certificates .title h1').innerHTML = 'Premiações';
 
             // CONTACT
-            document.querySelector('#contact .titles h1').innerHTML = 'Me Contate';
+            document.querySelector('#contact .title h1').innerHTML = 'Me Contate';
 
             // FOOTER
             document.querySelector('footer p').innerHTML = 'Site feito por <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> para o <a href="https://www.netlify.com" target="_blank">netlify</a>';
@@ -104,20 +104,20 @@ function pageLanguage() {
             document.querySelector('#home h1').innerHTML = 'Hi,<br>I\'m <span style="color: var(--sec-color)">Gabriel</span><br><span style="font-family: Inconsolata">System Developer</span>';
 
             // ABOUT
-            document.querySelector('#about .titles h1').innerHTML = 'About Me';
+            document.querySelector('#about .title h1').innerHTML = 'About Me';
             document.querySelector('#about .about-text p').innerHTML = 'I am currently studying System Devlopment at a vocational-technical high-school. I want to focus on learning about Back-End development, mainly Artificial Intelligence and Machine Learning. I love spending time challenging myself with coding projects, and I\'m capable of adapting to new challenges and projects. My main skills are: English, Python, HTML, CSS, JavaScript, MySQL.';
 
             // SKILLS
-            document.querySelector('#skills .titles h1').innerHTML = 'My Skills';
+            document.querySelector('#skills .title h1').innerHTML = 'My Skills';
 
             // PROJECTS
-            document.querySelector('#projects .titles h1').innerHTML = 'My Projects';
+            document.querySelector('#projects .title h1').innerHTML = 'My Projects';
 
             // CERTIFICATES
-            document.querySelector('#certificates .titles h1').innerHTML = 'My Awardings';
+            document.querySelector('#certificates .title h1').innerHTML = 'My Awardings';
 
             // CONTACT
-            document.querySelector('#contact .titles h1').innerHTML = 'Contact Me';
+            document.querySelector('#contact .title h1').innerHTML = 'Contact Me';
 
             // FOOTER
             document.querySelector('footer p').innerHTML = 'Site made by <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify</a>';

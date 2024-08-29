@@ -288,8 +288,7 @@ footer {
 }
 
 .skill-card-language {
-    background-color: black;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
     padding: 20px 10px 20px;
     border-radius: 15px;
     position: relative;
@@ -311,8 +310,7 @@ footer {
 }
 
 .skill-card-advanced {
-    background-color: black;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
     padding: 20px 10px 20px;
     border-radius: 15px;
     position: relative;
@@ -334,8 +332,7 @@ footer {
 }
 
 .skill-card-intermediate {
-    background-color: black;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
     padding: 20px 10px 20px;
     border-radius: 15px;
     position: relative;
@@ -357,8 +354,7 @@ footer {
 }
 
 .skill-card-beginner {
-    background-color: black;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
     padding: 20px 10px 20px;
     border-radius: 15px;
     position: relative;
