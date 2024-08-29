@@ -46,7 +46,7 @@ body {
 }
 
 section {
-    margin-bottom: 10em;
+    margin-bottom: 15em;
 }
 
 /* header -------------------------------------------------------*/
@@ -246,13 +246,6 @@ footer {
 
 /* skills ------------------------------------------------------*/
 
-.skills-grid-container-1 {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 100px;
-    justify-content: center;
-}
-
 .sub-title-language, .sub-title-advanced, .sub-title-intermediate, .sub-title-beginner {
     font-size: 2em;
     text-align: center;
@@ -281,14 +274,7 @@ footer {
 
 /* languages */
 
-.skills-grid-container-language {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    gap: 50px;
-}
-
-.skill-card-language-1, .skill-card-language-2 {
+.skill-card-language-1, .skill-card-language-2, .skill-card-language-3 {
     display: grid;
     grid-template-columns: auto auto;
     background-color: var(--bg-color);
@@ -304,7 +290,7 @@ footer {
     }
 }
 
-.skill-card-language-1:hover, .skill-card-language-2:hover {
+.skill-card-language-1:hover, .skill-card-language-2:hover, .skill-card-language-3:hover {
     transform: scale(1.1, 1.1);
     transition: transform .25s;
 }
@@ -313,7 +299,7 @@ footer {
 
 .skills-grid-container-advanced {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto auto;
     justify-content: center;
     gap: 50px;
 }
@@ -375,7 +361,7 @@ footer {
 
 .skills-grid-container-beginner {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     justify-content: center;
     gap: 50px;
 }
@@ -401,3 +387,6 @@ footer {
     transform: scale(1.1, 1.1);
     transition: transform .25s;
 }
+
+/* projects ------------------------------------------------------*/
+
