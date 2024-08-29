@@ -46,7 +46,7 @@ body {
 }
 
 section {
-    margin-bottom: 15em;
+    margin-bottom: 10em;
 }
 
 /* header -------------------------------------------------------*/
@@ -162,7 +162,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 11em;
-    margin-bottom: 11em;
+    margin-bottom: 15em;
 }
 
 .intro {
@@ -221,6 +221,7 @@ body {
     img {
         width: 100%;
         border-radius: 10%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     };
 }
 
