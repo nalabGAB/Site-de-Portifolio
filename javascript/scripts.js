@@ -5,16 +5,12 @@ function pageTheme() {
     setTimeout(() => {
         const currentIcon = icon.textContent.trim();
 
-        const header = document.querySelector('header');
-        const footer = document.querySelector('footer');
         const body = document.querySelector('body');
         const geral = document.documentElement;
         const languageIcon = document.getElementById('language-icon');
 
         if (currentIcon === 'dark_mode') {
             icon.textContent = 'light_mode';
-            header.style = "background-color: #e6e6e6";
-            footer.style = "background-color: #e6e6e6";
             body.style = "background-color: #f3f3f3";
             languageIcon.style.border = "black solid";
             geral.style.setProperty('--main-color', 'black');
@@ -23,8 +19,6 @@ function pageTheme() {
 
         } else {
             icon.textContent = 'dark_mode';
-            header.style = "background-color: #070707";
-            footer.style = "background-color: #070707";
             body.style = "background-color: #0C0C0C";
             languageIcon.style.border = "white solid";
             geral.style.setProperty('--main-color', 'white');

@@ -57,7 +57,7 @@ header {
     justify-content: center;
     top: 0;
     width: 100%;
-    background-color: #070707;
+    background-color: var(--bg-color);
     z-index: 1;
 }
     
@@ -229,7 +229,7 @@ body {
 footer {
     display: flex;
     justify-content: center;
-    background-color: #070707;
+    background-color: var(--bg-color);
     position: fixed;
     bottom: 0px;
     width: 100%;
