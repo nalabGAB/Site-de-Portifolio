@@ -186,7 +186,7 @@ body {
     justify-content: center;
 }
 
-.titles {
+.title {
     margin-bottom: 1em;
     font-size: 3em;
     text-align: center;
@@ -248,3 +248,124 @@ footer {
 
 /* skills ------------------------------------------------------*/
 
+.sub-title-language {
+    margin-bottom: 1em;
+    font-size: 2em;
+    text-align: center;
+    justify-content: center;
+    h1 {
+        color: #3daa39;
+    };
+}
+
+.sub-title-advanced, .sub-title-intermediate, .sub-title-beginner {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 2em;
+    text-align: center;
+    justify-content: center;
+}
+
+.sub-title-advanced h1 {
+    color: #AA4539;
+}
+
+.sub-title-intermediate h1 {
+    color: #a3aa39;
+}
+
+.sub-title-beginner h1 {
+    color: #3981aa;
+}
+
+/* languages */
+
+.skills-grid-container-language {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 50px;
+}
+
+.skill-card-language {
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    user-select: none;
+}
+
+.skill-card-language:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform .25s;
+}
+
+/* advanced skills */
+
+.skills-grid-container-advanced {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 50px;
+}
+
+.skill-card-advanced {
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    user-select: none;
+}
+
+.skill-card-advanced:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform .25s;
+}
+
+/* intermediate skills */
+
+.skills-grid-container-intermediate {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 50px;
+}
+
+.skill-card-intermediate {
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    user-select: none;
+}
+
+.skill-card-intermediate:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform .25s;
+}
+
+/* beginner skills */
+
+.skills-grid-container-beginner {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 50px;
+}
+
+.skill-card-beginner {
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    user-select: none;
+}
+
+.skill-card-beginner:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform .25s;
+}
