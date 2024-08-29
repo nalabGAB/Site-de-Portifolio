@@ -10,6 +10,7 @@
 :root {
     --main-color: white;
     --sec-color: springgreen;
+    --bg-color: #090909;
 }
 
 * {
@@ -51,17 +52,23 @@ section {
 /* header -------------------------------------------------------*/
 
 header {
+    display: flex;
+    position: fixed !important;
+    justify-content: center;
+    top: 0;
+    width: 100%;
     background-color: #070707;
+    z-index: 1;
 }
     
-#github-icon {
+header #github-icon {
     position: absolute;
     top: 10px;
     left: 1%;
     user-select: none;
 }
 
-#github-icon:hover {
+header #github-icon:hover {
     transition: 0.3s;
     color: var(--sec-color);
 }
@@ -181,11 +188,6 @@ body {
 
 /* about -------------------------------------------------------*/
 
-.about-container {
-    display: flex;
-    justify-content: center;
-}
-
 .title {
     margin-bottom: 1em;
     font-size: 3em;
@@ -197,29 +199,25 @@ body {
     };
 }
 
-.about-text {
-    float: left;
-    flex-direction: column;
-    width: 30%;
-    margin-right: 5%;
-    transform: translateY(20%);
-    h1 {
-        align-content: space-evenly;
-        font-size: 2em;
-    };
 
-    p {
-        align-content: space-evenly;
+.about-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.about-text {
+    margin-left: 300px;
+    width: 60%;
+    h1 {
+        font-size: 2em;
     };
 }
 
 .about-img {
-    float: left;
-    width: 30%;
-    margin-left: 5%;
-    display: flex;
-    flex-direction: column;            
-    justify-content: space-evenly;
+    margin-right: 300px;
     img {
         width: 100%;
         border-radius: 10%;
@@ -248,22 +246,25 @@ footer {
 
 /* skills ------------------------------------------------------*/
 
-.sub-title-language {
-    margin-bottom: 1em;
-    font-size: 2em;
-    text-align: center;
+.skills-grid-container-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
     justify-content: center;
-    h1 {
-        color: #3daa39;
-    };
 }
 
-.sub-title-advanced, .sub-title-intermediate, .sub-title-beginner {
-    margin-top: 3em;
-    margin-bottom: 1em;
+.sub-title-language, .sub-title-advanced, .sub-title-intermediate, .sub-title-beginner {
     font-size: 2em;
     text-align: center;
     justify-content: center;
+}
+
+.sub-title-intermediate, .sub-title-beginner {
+    margin-top: 3em;
+}
+
+.sub-title-language h1 {
+    color: #3daa39;
 }
 
 .sub-title-advanced h1 {
@@ -287,15 +288,23 @@ footer {
     gap: 50px;
 }
 
-.skill-card-language {
+.skill-card-language-1, .skill-card-language-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: var(--bg-color);
     box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
     padding: 20px 10px 20px;
     border-radius: 15px;
     position: relative;
     user-select: none;
+    i {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
 }
 
-.skill-card-language:hover {
+.skill-card-language-1:hover, .skill-card-language-2:hover {
     transform: scale(1.1, 1.1);
     transition: transform .25s;
 }
@@ -310,11 +319,20 @@ footer {
 }
 
 .skill-card-advanced {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: var(--bg-color);
     box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
     padding: 20px 10px 20px;
     border-radius: 15px;
     position: relative;
     user-select: none;
+    i {
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        margin-right: 10px;
+    }
 }
 
 .skill-card-advanced:hover {
@@ -332,11 +350,20 @@ footer {
 }
 
 .skill-card-intermediate {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: var(--bg-color);
     box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
     padding: 20px 10px 20px;
     border-radius: 15px;
     position: relative;
     user-select: none;
+    i {
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        margin-right: 10px;
+    }
 }
 
 .skill-card-intermediate:hover {
@@ -354,11 +381,20 @@ footer {
 }
 
 .skill-card-beginner {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: var(--bg-color);
     box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
     padding: 20px 10px 20px;
     border-radius: 15px;
     position: relative;
     user-select: none;
+    i {
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        margin-right: 10px;
+    }
 }
 
 .skill-card-beginner:hover {

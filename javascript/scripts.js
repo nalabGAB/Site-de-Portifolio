@@ -19,6 +19,7 @@ function pageTheme() {
             languageIcon.style.border = "black solid";
             geral.style.setProperty('--main-color', 'black');
             geral.style.setProperty('--sec-color', 'seagreen');
+            geral.style.setProperty('--bg-color', '#E2E2E2');
 
         } else {
             icon.textContent = 'dark_mode';
@@ -28,6 +29,7 @@ function pageTheme() {
             languageIcon.style.border = "white solid";
             geral.style.setProperty('--main-color', 'white');
             geral.style.setProperty('--sec-color', 'springgreen');
+            geral.style.setProperty('--bg-color', '#090909');
         }
 
         icon.classList.remove('fade-out');
@@ -77,6 +79,14 @@ function pageLanguage() {
             // SKILLS
             document.querySelector('#skills .title h1').innerHTML = 'Competências';
 
+            document.querySelector('#skills .sub-title-language').innerHTML = '<h1>Línguas Faladas</h1>';
+            document.querySelector('#skills .sub-title-advanced').innerHTML = '<h1>Habilidades Avançadas</h1>';
+            document.querySelector('#skills .sub-title-intermediate').innerHTML = '<h1>Habilidades Intermediárias</h1>';
+            document.querySelector('#skills .sub-title-beginner').innerHTML = '<h1>Habilidades Básicas</h1>';
+
+            document.querySelector('#skills .skill-card-language-1').innerHTML = '<i class="material-symbols-outlined">translate</i><h2><b>Inglês</b></h2>';
+            document.querySelector('#skills .skill-card-language-2').innerHTML = '<i class="material-symbols-outlined">translate</i><h2><b>Português</b></h2>';
+
             // PROJECTS
             document.querySelector('#projects .title h1').innerHTML = 'Projetos';
 
@@ -109,6 +119,14 @@ function pageLanguage() {
 
             // SKILLS
             document.querySelector('#skills .title h1').innerHTML = 'My Skills';
+
+            document.querySelector('#skills .sub-title-language').innerHTML = '<h1>Spoken Languages</h1>';
+            document.querySelector('#skills .sub-title-advanced').innerHTML = '<h1>Advanced Skills</h1>';
+            document.querySelector('#skills .sub-title-intermediate').innerHTML = '<h1>Intermediate Skills</h1>';
+            document.querySelector('#skills .sub-title-beginner').innerHTML = '<h1>Beginner Skills</h1>';
+
+            document.querySelector('#skills .skill-card-language-1').innerHTML = '<i class="material-symbols-outlined">translate</i><h2><b>English</b></h2>';
+            document.querySelector('#skills .skill-card-language-2').innerHTML = '<i class="material-symbols-outlined">translate</i><h2><b>Portuguese</b></h2>';
 
             // PROJECTS
             document.querySelector('#projects .title h1').innerHTML = 'My Projects';
