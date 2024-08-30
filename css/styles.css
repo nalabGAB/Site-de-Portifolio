@@ -10,7 +10,7 @@
 :root {
     --main-color: white;
     --sec-color: springgreen;
-    --bg-color: #090909;
+    --bg-color: #0b0b0b;
     --gradient-bg-color-1: #0C0C0C;
     --gradient-bg-color-2: #090c0a;
 }
@@ -436,3 +436,65 @@ footer {
 
 /* projects ------------------------------------------------------*/
 
+.project-container {
+    font-size: 2em;
+    text-align: center;
+    justify-content: center;
+}
+
+/* ainda nenhum projeto */
+
+/* certificates ------------------------------------------------------*/
+
+.invisible {
+    display: none;
+}
+
+.certificate-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    gap: 50px;
+}
+
+.certificate-card {
+    display: grid;
+    grid-template-columns: auto;
+    width: 300px;
+    height: 100%;
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 15px 20px;
+    border-radius: 15px;
+    position: relative;
+    h2 {
+        text-align: center;
+        user-select: none;
+    };
+
+    img {
+        border: 2px solid var(--main-color);
+        border-radius: 5%;
+        box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+        width: 100%;
+    };
+
+    img:hover {
+        transform: scale(1.05, 1.05);
+        transition: transform .25s;
+    }
+}
+
+.certificate-card:hover {
+    transform: scale(1.05, 1.05);
+    transition: transform .5s;
+    height: auto;
+    .invisible {
+        display: flex;
+    }
+    h2 {
+        text-align: left;
+    }
+}

@@ -23,7 +23,7 @@ const observer = new IntersectionObserver(handleIntersection, {
 });
 
 // Seleciona os elementos que você deseja animar usando um seletor combinado
-const elementsToAnimate = document.querySelectorAll('nav, h1, p, i, h2, img');
+const elementsToAnimate = document.querySelectorAll('nav, h1, p, i, h2, img, h3');
 
 // Adiciona cada elemento ao observer
 elementsToAnimate.forEach(element => {
@@ -58,7 +58,7 @@ function pageTheme() {
             languageIcon.style.border = "white solid";
             geral.style.setProperty('--main-color', 'white');
             geral.style.setProperty('--sec-color', 'springgreen');
-            geral.style.setProperty('--bg-color', '#090909');
+            geral.style.setProperty('--bg-color', '#0b0b0b');
             geral.style.setProperty('--gradient-bg-color-1', '#0C0C0C');
             geral.style.setProperty('--gradient-bg-color-2', '#050a07');
         }
@@ -121,8 +121,22 @@ function pageLanguage() {
             // PROJECTS
             document.querySelector('#projects .title h1').innerHTML = 'Projetos';
 
+            document.querySelector('#projects .project-container h1').innerHTML = 'Em Breve...';
+
             // CERTIFICATES
             document.querySelector('#certificates .title h1').innerHTML = 'Premiações';
+
+            document.querySelector('#certificates #certificate-card-etec h2').innerHTML = 'Assistente de Desenvolvedor de Sistemas';
+            document.querySelector('#certificates #certificate-card-etec p').innerHTML = 'Concedido por ETEC, correspondente a conclusão da 1ª SÉRIE do ensino médio com habilitação profissional de técnico em desenvolvimento de sistemas.';
+
+            document.querySelector('#certificates #certificate-card-python h2').innerHTML = 'Curso de Python';
+            document.querySelector('#certificates #certificate-card-python p').innerHTML = 'Concedido por Empowerdata, correspondente a conclusão do curso remoto "Semana do Python na Prática".';
+            
+            document.querySelector('#certificates #certificate-card-toeic h2').innerHTML = 'Proficiência em Inglês';
+            document.querySelector('#certificates #certificate-card-toeic p').innerHTML = 'Concedido por TOEIC, correspondente a pontuação total de 94% no teste "TOEIC Bridge® Listening and Reading Test".';
+
+            document.querySelector('#certificates #certificate-card-cuco h2').innerHTML = 'Selo de Ouro - Aluno Destaque na Escola';
+            document.querySelector('#certificates #certificate-card-cuco p').innerHTML = 'Concedido por CUCO, correspondente a pontuação total de 89% na "Competição USP de Conhecimentos e Oportunidades".';
 
             // CONTACT
             document.querySelector('#contact .title h1').innerHTML = 'Me Contate';
@@ -155,15 +169,29 @@ function pageLanguage() {
             document.querySelector('#skills .sub-title-intermediate h1').innerHTML = 'Intermediate Skills';
             document.querySelector('#skills .sub-title-beginner h1').innerHTML = 'Beginner Skills';
 
-            document.querySelector('#skills .skill-card-language-1 h2 a b').innerHTML = 'English';
-            document.querySelector('#skills .skill-card-language-2 h2 a b').innerHTML = 'Portuguese';
-            document.querySelector('#skills .skill-card-language-3 h2 a b').innerHTML = 'Spanish';
+            document.querySelector('#skills .skill-card-language-1 h2 b').innerHTML = 'English';
+            document.querySelector('#skills .skill-card-language-2 h2 b').innerHTML = 'Portuguese';
+            document.querySelector('#skills .skill-card-language-3 h2 b').innerHTML = 'Spanish';
 
             // PROJECTS
             document.querySelector('#projects .title h1').innerHTML = 'My Projects';
 
+            document.querySelector('#projects .project-container h1').innerHTML = 'Coming Soon...';
+
             // CERTIFICATES
             document.querySelector('#certificates .title h1').innerHTML = 'My Awardings';
+
+            document.querySelector('#certificates #certificate-card-etec h2').innerHTML = 'System Developer Assistant';
+            document.querySelector('#certificates #certificate-card-etec p').innerHTML = 'Granted by ETEC, corresponding to the completion of the 1st year of high school with professional qualification in system development vocational-technical training.';
+
+            document.querySelector('#certificates #certificate-card-python h2').innerHTML = 'Python Course';
+            document.querySelector('#certificates #certificate-card-python p').innerHTML = 'Granted by Empowerdata, corresponding to the completion of the "Semana do Python na Prática" online course.';
+            
+            document.querySelector('#certificates #certificate-card-toeic h2').innerHTML = 'English Proficiency';
+            document.querySelector('#certificates #certificate-card-toeic p').innerHTML = 'Granted by TOEIC, corresponding to 94% total score in "TOEIC Bridge® Listening and Reading Test".';
+
+            document.querySelector('#certificates #certificate-card-cuco h2').innerHTML = 'Gold Seal of Prominence in School';
+            document.querySelector('#certificates #certificate-card-cuco p').innerHTML = 'Granted by CUCO, corresponding to 89% total score in the seventh edition of "USP Knowladge and Oportunity Contest".';
 
             // CONTACT
             document.querySelector('#contact .title h1').innerHTML = 'Contact Me';
