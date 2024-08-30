@@ -11,6 +11,27 @@
     --main-color: white;
     --sec-color: springgreen;
     --bg-color: #090909;
+    --gradient-bg-color-1: #0C0C0C;
+    --gradient-bg-color-2: #090c0a;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+@keyframes appear {
+    from { 
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to { 
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.animate-appear {
+    animation: appear 1s ease;
 }
 
 * {
@@ -24,6 +45,7 @@ a {
 }
 
 ::-webkit-scrollbar {
+    background-color: var(--bg-color);
     width: 5px;
 }
 
@@ -151,9 +173,26 @@ nav {
 }
 
 /* body -------------------------------------------------------*/
+html, body {
+    width: 100%;
+}
 
 body {
-    background-color: #0C0C0C;
+    background: linear-gradient(-45deg, var(--gradient-bg-color-1), var(--gradient-bg-color-2), var(--gradient-bg-color-1), var(--gradient-bg-color-2));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* home -------------------------------------------------------*/
@@ -254,7 +293,7 @@ footer {
 }
 
 .sub-title-intermediate, .sub-title-beginner {
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 .sub-title-language h1 {
@@ -298,10 +337,12 @@ footer {
 
 /* advanced skills */
 
-.skills-grid-container-advanced {
-    display: grid;
-    grid-template-columns: auto auto auto;
+.skills-container-advanced {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
     gap: 50px;
 }
 
@@ -329,10 +370,12 @@ footer {
 
 /* intermediate skills */
 
-.skills-grid-container-intermediate {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+.skills-container-intermediate {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
     gap: 50px;
 }
 
@@ -360,10 +403,12 @@ footer {
 
 /* beginner skills */
 
-.skills-grid-container-beginner {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
+.skills-container-beginner {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
     gap: 50px;
 }
 

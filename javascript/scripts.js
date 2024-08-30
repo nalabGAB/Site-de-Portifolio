@@ -1,3 +1,38 @@
+/* o código a seguir foi feito com ajuda da internet */
+
+// Função para adicionar e remover a classe de animação quando o elemento entra na tela
+function handleIntersection(entries) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Remove a classe que mantém o elemento oculto
+            entry.target.classList.remove('hidden');
+            // Reinicia a animação removendo e adicionando a classe
+            entry.target.classList.remove('animate-appear');
+            void entry.target.offsetWidth; // Força o reflow
+            entry.target.classList.add('animate-appear');
+        } else {
+            // Adiciona de volta a classe para esconder o elemento quando sai da tela
+            entry.target.classList.add('hidden');
+        }
+    });
+}
+
+// Configuração do Intersection Observer
+const observer = new IntersectionObserver(handleIntersection, {
+    threshold: 0.01 // Define o quanto do elemento precisa estar visível (10%)
+});
+
+// Seleciona os elementos que você deseja animar usando um seletor combinado
+const elementsToAnimate = document.querySelectorAll('nav, h1, p, i, h2, img');
+
+// Adiciona cada elemento ao observer
+elementsToAnimate.forEach(element => {
+    observer.observe(element);
+});
+
+/* a código anterior foi feito com ajuda da internet */
+
+
 function pageTheme() {
     const icon = document.getElementById('theme-icon');
     icon.classList.add('fade-out');
@@ -11,19 +46,21 @@ function pageTheme() {
 
         if (currentIcon === 'dark_mode') {
             icon.textContent = 'light_mode';
-            body.style = "background-color: #f3f3f3";
             languageIcon.style.border = "black solid";
             geral.style.setProperty('--main-color', 'black');
             geral.style.setProperty('--sec-color', 'seagreen');
             geral.style.setProperty('--bg-color', '#E2E2E2');
+            geral.style.setProperty('--gradient-bg-color-1', '#f3f3f3');
+            geral.style.setProperty('--gradient-bg-color-2', '#e9f8e9');
 
         } else {
             icon.textContent = 'dark_mode';
-            body.style = "background-color: #0C0C0C";
             languageIcon.style.border = "white solid";
             geral.style.setProperty('--main-color', 'white');
             geral.style.setProperty('--sec-color', 'springgreen');
             geral.style.setProperty('--bg-color', '#090909');
+            geral.style.setProperty('--gradient-bg-color-1', '#0C0C0C');
+            geral.style.setProperty('--gradient-bg-color-2', '#050a07');
         }
 
         icon.classList.remove('fade-out');
@@ -73,13 +110,13 @@ function pageLanguage() {
             // SKILLS
             document.querySelector('#skills .title h1').innerHTML = 'Competências';
 
-            document.querySelector('#skills .sub-title-advanced').innerHTML = '<h1>Nivel Avançado</h1>';
-            document.querySelector('#skills .sub-title-intermediate').innerHTML = '<h1>Nivel Intermediário</h1>';
-            document.querySelector('#skills .sub-title-beginner').innerHTML = '<h1>Nivel Básico</h1>';
+            document.querySelector('#skills .sub-title-advanced h1').innerHTML = 'Nível Avançado';
+            document.querySelector('#skills .sub-title-intermediate h1').innerHTML = 'Nível Intermediário';
+            document.querySelector('#skills .sub-title-beginner h1').innerHTML = 'Nível Básico';
 
-            document.querySelector('#skills .skill-card-language-1').innerHTML = '<i class="material-symbols-outlined">translate</i><h2><b>Inglês</b></h2>';
-            document.querySelector('#skills .skill-card-language-2').innerHTML = '<i class="material-symbols-outlined">translate</i><h2><b>Português</b></h2>';
-            document.querySelector('#skills .skill-card-language-3').innerHTML = '<i class="material-symbols-outlined">translate</i><h2><b>Espanhol</b></h2>';
+            document.querySelector('#skills .skill-card-language-1 h2 b').innerHTML = 'Inglês';
+            document.querySelector('#skills .skill-card-language-2 h2 b').innerHTML = 'Português';
+            document.querySelector('#skills .skill-card-language-3 h2 b').innerHTML = 'Espanhol';
 
             // PROJECTS
             document.querySelector('#projects .title h1').innerHTML = 'Projetos';
@@ -114,13 +151,13 @@ function pageLanguage() {
             // SKILLS
             document.querySelector('#skills .title h1').innerHTML = 'My Skills';
 
-            document.querySelector('#skills .sub-title-advanced').innerHTML = '<h1>Advanced Skills</h1>';
-            document.querySelector('#skills .sub-title-intermediate').innerHTML = '<h1>Intermediate Skills</h1>';
-            document.querySelector('#skills .sub-title-beginner').innerHTML = '<h1>Beginner Skills</h1>';
+            document.querySelector('#skills .sub-title-advanced h1').innerHTML = 'Advanced Skills';
+            document.querySelector('#skills .sub-title-intermediate h1').innerHTML = 'Intermediate Skills';
+            document.querySelector('#skills .sub-title-beginner h1').innerHTML = 'Beginner Skills';
 
-            document.querySelector('#skills .skill-card-language-1').innerHTML = '<i class="material-symbols-outlined">translate</i><h2><b>English</b></h2>';
-            document.querySelector('#skills .skill-card-language-2').innerHTML = '<i class="material-symbols-outlined">translate</i><h2><b>Portuguese</b></h2>';
-            document.querySelector('#skills .skill-card-language-3').innerHTML = '<i class="material-symbols-outlined">translate</i><h2><b>Spanish</b></h2>';
+            document.querySelector('#skills .skill-card-language-1 h2 a b').innerHTML = 'English';
+            document.querySelector('#skills .skill-card-language-2 h2 a b').innerHTML = 'Portuguese';
+            document.querySelector('#skills .skill-card-language-3 h2 a b').innerHTML = 'Spanish';
 
             // PROJECTS
             document.querySelector('#projects .title h1').innerHTML = 'My Projects';
