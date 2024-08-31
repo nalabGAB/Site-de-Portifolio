@@ -476,7 +476,7 @@ footer div {
     padding: 15px 20px;
     border-radius: 15px;
     position: relative;
-    h2 {
+    h2, #features {
         text-align: center;
         user-select: none;
     };
@@ -503,6 +503,9 @@ footer div {
     }
     h2 {
         text-align: left;
+    }
+    #features {
+        display: none;
     }
 }
 
