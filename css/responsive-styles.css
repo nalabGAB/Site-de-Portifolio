@@ -19,6 +19,11 @@
     nav {
         display: none;
         padding-bottom: 10px;
+        row-gap: 50px;
+        a {
+            display: inline-block;
+            padding-top: 10px;
+        }
     }
 
     .menu-icon-container, .social-icons, .function-icons {
@@ -98,6 +103,14 @@
             border-radius: 10%;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         };
+    }
+
+    /* skills -------------------------------------------------------*/
+
+    .sub-title-advanced, .sub-title-intermediate, .sub-title-beginner {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
     }
 
     /* projects -------------------------------------------------------*/
