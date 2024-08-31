@@ -10,7 +10,7 @@
 
     header {
         height: auto;
-        width: 100%;
+        width: 100vw;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
