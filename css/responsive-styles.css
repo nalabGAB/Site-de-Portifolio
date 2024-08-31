@@ -3,30 +3,52 @@
     /* header -------------------------------------------------------*/
 
     header {
-        height: 53px;
+        height: auto;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    nav a {
-        display: none;
-    }
-
-    .social-icons {
-        display: flex;
-        justify-content: center;
-        gap: 15px;
+    .navigator-container {
+        width: 100%;
+        display: block;
+        text-align: center;
         margin-top: 10px;
     }
+    
+    nav {
+        display: none;
+        padding-bottom: 10px;
+    }
 
-    .function-icons-container {
-        width: auto;
-        justify-content: end;
+    .menu-icon-container, .social-icons, .function-icons {
+        display: flex; 
+        align-items: center;
+        margin-top: 5px;
+        gap: 20px;
+        user-select: none;
+        cursor: pointer;
+        * {
+            font-size: 33px;
+        }
     }
 
     .function-icons {
-        width: 100%;
-        display: flex;
-        justify-content: right;
-        gap: 15px;
-        margin-top: 5px;
+        margin-right: 10px;
+    }
+    
+    .menu-icon-container {
+        margin-left: 10px;
+    }
+
+    .menu-icon-container:hover {
+        transition: .3s;
+        transform: scale(1.1, 1.1);
+    }
+
+    #language-icon {
+        height: 35px;
+        margin-top: 2px;
+        border: 3px white solid;
     }
 }

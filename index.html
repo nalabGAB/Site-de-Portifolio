@@ -18,6 +18,12 @@
 <body>
     <script src="javascript/captcha.js"></script>
     <header>
+        <div class="menu-icon-container">
+            <i id="menu-icon" class="material-symbols-outlined" style="font-size: 43px;" onclick="mobileMenu()">
+                menu
+            </i>
+        </div>
+
         <div class="social-icons">
             <a href="https://github.com/nalabGAB" target="_blank">
                 <i id="github-icon" class="fa fa-github" style="font-size: 33px;"></i>
@@ -32,27 +38,25 @@
             </a>
         </div>
         
-        <nav>
-            <a id="home-link" href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#certificates">Certificates</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
         <div class="function-icons">
             <i id="language-icon" class="fi fi-gb" style="font-size: 35px;" onclick="pageLanguage()"></i>
 
             <i id="theme-icon" class="material-symbols-outlined" style="font-size: 43px;" onclick="pageTheme()">
                 dark_mode
             </i>
-
-            <i id="menu-icon" class="material-symbols-outlined" style="font-size: 43px; display: none;" onclick="">
-                menu
-            </i>
         </div>
-    
+
+        <div class="navigator-container">
+            <nav>
+                <a id="home-link" href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#certificates">Certificates</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+
     </header>
 
     <section id="home">

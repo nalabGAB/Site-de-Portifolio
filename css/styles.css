@@ -133,6 +133,10 @@ header {
         transition: opacity 0.15s ease;
     }
 
+    #menu-icon {
+        display: none;
+    }
+
 }
 
 header #github-icon:hover {
