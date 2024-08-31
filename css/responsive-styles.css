@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1279px) {
+
+    /* header -------------------------------------------------------*/
+
+    header {
+        height: 53px;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .function-icons-container {
+        width: auto;
+        justify-content: end;
+    }
+
+    .function-icons {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        gap: 15px;
+        margin-top: 5px;
+    }
+}

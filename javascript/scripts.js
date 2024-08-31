@@ -150,7 +150,7 @@ function pageLanguage() {
             document.querySelector('.footer-fixed p').innerHTML = 'Site feito por <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> para o <a href="https://www.netlify.com" target="_blank">netlify</a>';
 
             document.querySelector('.footer-fixed-relative p').innerHTML = 'Site feito por <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> para o <a href="https://www.netlify.com" target="_blank">netlify</a>';
-            document.querySelector('.footer-absolute p').innerHTML = '© 2024 copyright todos os direitos reservados';
+            document.querySelector('.footer-absolute p').innerHTML = '© 2024 todos os direitos reservados';
         } else {
             icon.classList.remove('fi-br');
             icon.classList.add('fi-gb');

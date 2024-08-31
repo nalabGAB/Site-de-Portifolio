@@ -91,12 +91,48 @@ header {
     background-color: var(--bg-color);
     z-index: 1;
 }
-    
-header #github-icon {
-    position: absolute;
-    top: 10px;
-    left: 1%;
-    user-select: none;
+@media only screen and (min-width: 1280px) {
+
+    header #github-icon {
+        position: absolute;
+        top: 10px;
+        left: 1%;
+        user-select: none;
+    }
+
+    #linkedin-icon{
+        position: absolute;
+        top: 10px;
+        left: calc(3% + 15px);
+        user-select: none;
+    }
+
+    #monkeytype-icon{
+        position: absolute;
+        top: 10px;
+        left: calc(5% + 30px);
+        user-select: none;
+    }
+
+    #language-icon {
+        position: absolute;
+        top: calc(0% + 6px);
+        right: calc(3% + 30px);
+        border: white solid;
+        transition: opacity 0.15s ease;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    #theme-icon {
+        position: absolute;
+        top: calc(0% + 5px);
+        right: 1%;
+        cursor: pointer;
+        user-select: none;
+        transition: opacity 0.15s ease;
+    }
+
 }
 
 header #github-icon:hover {
@@ -104,38 +140,14 @@ header #github-icon:hover {
     color: var(--sec-color);
 }
 
-#linkedin-icon{
-    position: absolute;
-    top: 10px;
-    left: calc(3% + 15px);
-    user-select: none;
-}
-
 #linkedin-icon:hover {
     transition: 0.3s;
     color: var(--sec-color);
 }
 
-#monkeytype-icon{
-    position: absolute;
-    top: 10px;
-    left: calc(5% + 30px);
-    user-select: none;
-}
-
 #monkeytype-icon:hover {
     transition: 0.3s;
     color: var(--sec-color);
-}
-
-#language-icon {
-    position: absolute;
-    top: calc(0% + 6px);
-    right: calc(3% + 30px);
-    border: white solid;
-    transition: opacity 0.15s ease;
-    cursor: pointer;
-    user-select: none;
 }
 
 #language-icon:hover {
@@ -145,15 +157,6 @@ header #github-icon:hover {
 
 #language-icon.fade-out {
     opacity: 0;
-}
-
-#theme-icon {
-    position: absolute;
-    top: calc(0% + 5px);
-    right: 1%;
-    cursor: pointer;
-    user-select: none;
-    transition: opacity 0.15s ease;
 }
 
 #theme-icon:hover {
@@ -244,17 +247,18 @@ body {
     };
 }
 
-
 .about-container {
     display: grid;
     grid-template-columns: auto auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
     align-items: center;
     justify-content: center;
-    column-gap: 100px;
 }
 
 .about-text {
-    margin-left: 300px;
+    margin-left: 25%;
     width: 60%;
     h1 {
         font-size: 2em;
@@ -262,9 +266,8 @@ body {
 }
 
 .about-img {
-    margin-right: 300px;
     img {
-        width: 100%;
+        width: 75%;
         border-radius: 10%;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     };
