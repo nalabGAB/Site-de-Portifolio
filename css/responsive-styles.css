@@ -10,10 +10,13 @@
 
     header {
         height: auto;
-        width: 100vw;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
+    }
+
+    html, header, body {
+        width: 100vw;
     }
 
     .navigator-container {
