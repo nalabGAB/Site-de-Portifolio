@@ -78,6 +78,7 @@
     }
 
     .intro {
+        width: 350px;
         display: flex;
         font-size: 1.75em;
         justify-content: center;
