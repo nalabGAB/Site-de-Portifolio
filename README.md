@@ -1,8 +1,7 @@
 # Hello
 This is my portfolio, all of my projects, awards, and skills are in there.
 
-> [!IMPORTANT]
-> Acess link: 
+> [!IMPORTANT] 
 > [Portfolio Website](https://nalabportfolio.netlify.app)
 
 # Features
