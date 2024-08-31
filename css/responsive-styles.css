@@ -74,4 +74,28 @@
     }
 
     /* about -------------------------------------------------------*/
+    .about-container {
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-text {
+        margin-left: 0;
+        display: block;      
+        width: 300px;
+        margin-bottom: 3em;
+    }
+
+    .about-img {
+        display: flex;
+        img {
+            width: 300px;
+            border-radius: 10%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        };
+    }
 }
