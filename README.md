@@ -1,5 +1,5 @@
 # Hello
-This is my portfolio, all of my projects, awards, and skills are in there.
+This is my portfolio. All of my projects, awards, and skills are in there:
 
 > [!IMPORTANT] 
 > [Portfolio Website](https://nalabportfolio.netlify.app)
