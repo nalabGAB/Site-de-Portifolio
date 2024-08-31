@@ -23,7 +23,7 @@ const observer = new IntersectionObserver(handleIntersection, {
 });
 
 // Seleciona os elementos que você deseja animar usando um seletor combinado
-const elementsToAnimate = document.querySelectorAll('nav, h1, p, i, h2, img, h3, input, textarea');
+const elementsToAnimate = document.querySelectorAll('nav, h1, p, i, h2, img, h3, input, textarea, button');
 
 // Adiciona cada elemento ao observer
 elementsToAnimate.forEach(element => {

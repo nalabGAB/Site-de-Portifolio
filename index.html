@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+    <!--css-->
     <link rel="stylesheet" href="css/styles.css">
+    <!--icons-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--captcha-->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 <body>
     <header>
@@ -226,9 +230,16 @@
             <h1>Contact Me</h1>
         </div>
         
-        <form id="contact-form" on>
+        <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+            
+            <input type="hidden" name="access_key" value="fdbbdba4-0e49-4c90-aa8f-3d8d81c8029f">
+
             <input type="email" id="email" name="email" placeholder="Email" required>
             <textarea id="message" name="body" placeholder="Message" required></textarea>
+            <button class="g-recaptcha" 
+                data-sitekey="6LcUWjMqAAAAAPaIV31IjoyyZDVcJvA1XUKUc0zf" 
+                data-callback='onSubmit' 
+                data-action='submit'>Submit</button>
             <input id="submit" type="submit" value="Send">
         </form>
 
@@ -254,7 +265,7 @@
 
     </footer>
 
+    <!--javascript-->
     <script src="javascript/scripts.js"></script>
-
 </body>
 </html>
