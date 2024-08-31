@@ -217,25 +217,27 @@ body {
     margin-bottom: 15em;
 }
 
-.intro {
-    float: left;
-    width: 50%;
-    font-size: 3em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
+@media only screen and (min-width: 1280px) {
+    .intro {
+        float: left;
+        width: 50%;
+        font-size: 3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 
-.icone-eu {
-    float: left;
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;            
-    justify-content: space-evenly;
-    img {
-        width: 500px;
-    };
+    .icone-eu {
+        float: left;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;            
+        justify-content: space-evenly;
+        img {
+            width: 500px;
+        };
+    }
 }
 
 /* about -------------------------------------------------------*/

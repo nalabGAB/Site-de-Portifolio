@@ -51,4 +51,27 @@
         margin-top: 2px;
         border: 3px white solid;
     }
+
+    /* home -------------------------------------------------------*/
+    
+    .home-container {
+        display: grid;
+    }
+
+    .intro {
+        display: flex;
+        font-size: 1.75em;
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+
+    .icone-eu {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 350px;
+        };
+    }
+
+    /* about -------------------------------------------------------*/
 }
