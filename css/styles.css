@@ -253,30 +253,32 @@ body {
     };
 }
 
-.about-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-    align-items: center;
-    justify-content: center;
-}
+@media only screen and (min-width: 1280px) {
+    .about-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
 
-.about-text {
-    margin-left: 25%;
-    width: 60%;
-    h1 {
-        font-size: 2em;
-    };
-}
+    .about-text {
+        margin-left: 25%;
+        width: 60%;
+        h1 {
+            font-size: 2em;
+        };
+    }
 
-.about-img {
-    img {
-        width: 75%;
-        border-radius: 10%;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    };
+    .about-img {
+        img {
+            width: 75%;
+            border-radius: 10%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        };
+    }
 }
 
 /* footer -------------------------------------------------------*/
@@ -466,13 +468,15 @@ footer div {
 
 /* projects ------------------------------------------------------*/
 
-.project-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    gap: 50px;
+@media only screen and (min-width: 1280px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        gap: 50px;
+    }
 }
 
 .project-card {
@@ -524,13 +528,15 @@ footer div {
     display: none;
 }
 
-.certificate-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    gap: 50px;
+@media only screen and (min-width: 1280px) {
+    .certificate-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        gap: 50px;
+    }
 }
 
 .certificate-card {

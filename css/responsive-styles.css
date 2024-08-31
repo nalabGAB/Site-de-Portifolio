@@ -74,6 +74,7 @@
     }
 
     /* about -------------------------------------------------------*/
+
     .about-container {
         display: grid;
         grid-template-columns: auto;
@@ -98,4 +99,21 @@
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         };
     }
+
+    /* projects -------------------------------------------------------*/
+
+    .project-container {
+        display: grid;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    /* certificates -------------------------------------------------------*/
+
+    .certificate-container {
+        display: grid;
+        justify-content: center;
+        gap: 50px;
+    }
+
 }
