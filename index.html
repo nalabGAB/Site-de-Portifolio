@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!--captcha-->
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+    <script src="javascript/captcha.js"></script>
 </head>
 <body>
     <header>
@@ -233,13 +234,10 @@
         <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
             
             <input type="hidden" name="access_key" value="fdbbdba4-0e49-4c90-aa8f-3d8d81c8029f">
+            <input type="hidden" id="recaptcha-token" name="recaptcha-token">
 
             <input type="email" id="email" name="email" placeholder="Email" required>
             <textarea id="message" name="body" placeholder="Message" required></textarea>
-            <button class="g-recaptcha" 
-                data-sitekey="6LcUWjMqAAAAAPaIV31IjoyyZDVcJvA1XUKUc0zf" 
-                data-callback='onSubmit' 
-                data-action='submit'>Submit</button>
             <input id="submit" type="submit" value="Send">
         </form>
 
