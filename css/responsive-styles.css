@@ -145,8 +145,16 @@
 
     /* contact -------------------------------------------------------*/
 
-    #email, #message {
-        width: 50vw;
+    @media only screen and (max-width: 400px) {
+        #email, #message {
+            width: 60vw;
+        }
+    }
+
+    @media only screen and (min-width: 400px) {
+        #email, #message {
+            width: 300px;
+        }
     }
 
 }
