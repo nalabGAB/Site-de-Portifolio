@@ -586,8 +586,8 @@ footer div {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
-    gap: 25px;
     width: 100%;
+    gap: 25px;
     * {
         padding: 15px;
         border: 1px solid;
