@@ -1,9 +1,16 @@
 @media only screen and (max-width: 1279px) {
 
+    /* geral */
+    
+    .title {
+        font-size: 2em;
+    }
+
     /* header -------------------------------------------------------*/
 
     header {
         height: auto;
+        width: 100%;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
