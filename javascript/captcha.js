@@ -1,13 +1,14 @@
-document.getElementById('contact-form').addEventListener('submit', function (e) {
-    e.preventDefault(); // Evita o envio padrão do formulário
-
-    grecaptcha.ready(function() {
-        grecaptcha.execute('6LcUWjMqAAAAAPaIV31IjoyyZDVcJvA1XUKUc0zf', {action: 'submit'}).then(function(token) {
-            // Adiciona o token ao campo oculto
-            document.getElementById('recaptcha-token').value = token;
-
-            // Agora pode submeter o formulário
-            document.getElementById('contact-form').submit();
+document.addEventListener('DOMContentLoaded', function () {
+    var form = document.getElementById('contact-form');
+    if (form) {
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            grecaptcha.ready(function() {
+                grecaptcha.execute('6LcUWjMqAAAAAPaIV31IjoyyZDVcJvA1XUKUc0zf', {action: 'submit'}).then(function(token) {
+                    document.getElementById('recaptcha-token').value = token;
+                    form.submit();
+                });
+            });
         });
-    });
+    }
 });

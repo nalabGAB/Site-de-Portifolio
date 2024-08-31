@@ -120,7 +120,10 @@ function pageLanguage() {
             // PROJECTS
             document.querySelector('#projects .title h1').innerHTML = 'Projetos';
 
-            document.querySelector('#projects .project-container h1').innerHTML = 'Em Breve...';
+            document.querySelector('#projects #project-card-portfolio #project-title').innerHTML = 'Site de Portifólio';
+            document.querySelector('#projects #project-card-portfolio h3').innerHTML = 'Agosto 2024';
+            document.querySelector('#projects #project-card-portfolio p').innerHTML = 'Site feito para testar e demonstrar minha competência em HTML, CSS e JavaScript. Incluindo API do reCAPTCHA, host de formulário no web3forms e implementação de site na web através do netlify.';
+
 
             // CERTIFICATES
             document.querySelector('#certificates .title h1').innerHTML = 'Premiações';
@@ -181,7 +184,9 @@ function pageLanguage() {
             // PROJECTS
             document.querySelector('#projects .title h1').innerHTML = 'My Projects';
 
-            document.querySelector('#projects .project-container h1').innerHTML = 'Coming Soon...';
+            document.querySelector('#projects #project-card-portfolio #project-title').innerHTML = 'Portfolio Website';
+            document.querySelector('#projects #project-card-portfolio h3').innerHTML = 'August 2024';
+            document.querySelector('#projects #project-card-portfolio p').innerHTML = 'Website made to test and showcase my skills in HTML, CSS, and JS. Including reCAPTCHA API, web3forms hosting, and netlify deploy.';
 
             // CERTIFICATES
             document.querySelector('#certificates .title h1').innerHTML = 'My Awardings';
