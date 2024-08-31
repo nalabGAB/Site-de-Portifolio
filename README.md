@@ -1,7 +1,7 @@
 # Hello
-This is my portfolio, to access it click this link: 
-[Portfolio Website](https://nalabportfolio.netlify.app)
+<p>This is my portfolio, to access it click this link:</p> 
+<p>[Portfolio Website](https://nalabportfolio.netlify.app)</p>
 
 # Features
-The website showcases my skills in HTML, CSS, and JavaScript, as well as a few APIs. 
-All of my projects, awards, and info i want to share will be in my portfolio.
+<p>The website showcases my skills in HTML, CSS, and JavaScript, as well as a few APIs.</p>
+<p>All of my projects, awards, and info i want to share will be in my portfolio.</p>
