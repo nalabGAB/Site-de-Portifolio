@@ -121,7 +121,7 @@ function pageLanguage() {
             document.querySelector('#projects .title h1').innerHTML = 'Projetos';
 
             document.querySelector('#projects #project-card-portfolio #project-title').innerHTML = 'Site de Portifólio';
-            document.querySelector('#projects #project-card-portfolio h3').innerHTML = 'Agosto 2024';
+            document.querySelector('#projects #project-card-portfolio #date').innerHTML = 'Agosto 2024';
             document.querySelector('#projects #project-card-portfolio p').innerHTML = 'Site feito para testar e demonstrar minha competência em HTML, CSS e JavaScript. Incluindo API do reCAPTCHA, host de formulário no web3forms e implementação de site na web através do netlify.';
 
 
@@ -185,7 +185,7 @@ function pageLanguage() {
             document.querySelector('#projects .title h1').innerHTML = 'My Projects';
 
             document.querySelector('#projects #project-card-portfolio #project-title').innerHTML = 'Portfolio Website';
-            document.querySelector('#projects #project-card-portfolio h3').innerHTML = 'August 2024';
+            document.querySelector('#projects #project-card-portfolio #date').innerHTML = 'August 2024';
             document.querySelector('#projects #project-card-portfolio p').innerHTML = 'Website made to test and showcase my skills in HTML, CSS, and JS. Including reCAPTCHA API, web3forms hosting, and netlify deploy.';
 
             // CERTIFICATES
