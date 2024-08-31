@@ -140,8 +140,14 @@ function pageLanguage() {
             // CONTACT
             document.querySelector('#contact .title h1').innerHTML = 'Me Contate';
 
+            document.querySelector('#contact #message').placeholder = 'Mensagem';
+            document.querySelector('#contact #submit').value = 'Enviar';
+
             // FOOTER
-            document.querySelector('footer p').innerHTML = 'Site feito por <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> para o <a href="https://www.netlify.com" target="_blank">netlify</a>';
+            document.querySelector('.footer-fixed p').innerHTML = 'Site feito por <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> para o <a href="https://www.netlify.com" target="_blank">netlify</a>';
+
+            document.querySelector('.footer-fixed-relative p').innerHTML = 'Site feito por <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> para o <a href="https://www.netlify.com" target="_blank">netlify</a>';
+            document.querySelector('.footer-absolute p').innerHTML = '© 2024 copyright todos os direitos reservados';
         } else {
             icon.classList.remove('fi-br');
             icon.classList.add('fi-gb');
@@ -195,8 +201,14 @@ function pageLanguage() {
             // CONTACT
             document.querySelector('#contact .title h1').innerHTML = 'Contact Me';
 
+            document.querySelector('#contact #message').placeholder = 'Message';
+            document.querySelector('#contact #submit').value = 'Send';
+
             // FOOTER
-            document.querySelector('footer p').innerHTML = 'Site made by <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify</a>';
+            document.querySelector('.footer-fixed p').innerHTML = 'Site made by <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify</a>';
+
+            document.querySelector('.footer-fixed-relative p').innerHTML = 'Site made by <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify</a>';
+            document.querySelector('.footer-absolute p').innerHTML = '© 2024 copyright all rights reserved';
         }
 
         icon.classList.remove('fade-out');
