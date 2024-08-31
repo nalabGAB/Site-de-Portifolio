@@ -25,7 +25,7 @@
         </a>
         
         <nav>
-            <a href="#home">Home</a>
+            <a id="home-link" href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
@@ -86,7 +86,7 @@
         </div>
 
         <div class="sub-title-advanced">
-            <h1>Advanced Skills</h1>
+            <h1>Advanced Level</h1>
         </div>
 
         <div class="skills-container-advanced">
@@ -107,7 +107,7 @@
         </div>
 
         <div class="sub-title-intermediate">
-            <h1>Intermediate Skills</h1>
+            <h1>Intermediate Level</h1>
         </div>
 
         <div class="skills-container-intermediate">
@@ -135,7 +135,7 @@
         </div>
 
         <div class="sub-title-beginner">
-            <h1>Beginner Skills</h1>
+            <h1>Beginner Level</h1>
         </div>
 
         <div class="skills-container-beginner">
@@ -226,10 +226,32 @@
             <h1>Contact Me</h1>
         </div>
         
+        <form id="contact-form" on>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <textarea id="message" name="body" placeholder="Message" required></textarea>
+            <input id="submit" type="submit" value="Send">
+        </form>
+
     </section>
 
     <footer>
-        <p>Site made by <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify </p>
+
+        <div class="footer-fixed">
+            <p>Site made by <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify</p></a>
+        </div>
+
+    </footer>
+
+    <footer>
+
+        <div class="footer-fixed-relative">
+            <p>Site made by <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify</p></a>
+        </div>
+
+        <div class="footer-absolute">
+            <p>© 2024 copyright all right reserved</p>
+        </div>
+
     </footer>
 
     <script src="javascript/scripts.js"></script>

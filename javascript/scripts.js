@@ -1,4 +1,4 @@
-/* o código a seguir foi feito com ajuda da internet */
+/* os códigos a seguir foram feitos com ajuda da internet */
 
 // Função para adicionar e remover a classe de animação quando o elemento entra na tela
 function handleIntersection(entries) {
@@ -23,15 +23,14 @@ const observer = new IntersectionObserver(handleIntersection, {
 });
 
 // Seleciona os elementos que você deseja animar usando um seletor combinado
-const elementsToAnimate = document.querySelectorAll('nav, h1, p, i, h2, img, h3');
+const elementsToAnimate = document.querySelectorAll('nav, h1, p, i, h2, img, h3, input, textarea');
 
 // Adiciona cada elemento ao observer
 elementsToAnimate.forEach(element => {
     observer.observe(element);
 });
 
-/* a código anterior foi feito com ajuda da internet */
-
+/* os códigos anteriores foram feitos com ajuda da internet */
 
 function pageTheme() {
     const icon = document.getElementById('theme-icon');
@@ -112,7 +111,7 @@ function pageLanguage() {
 
             document.querySelector('#skills .sub-title-advanced h1').innerHTML = 'Nível Avançado';
             document.querySelector('#skills .sub-title-intermediate h1').innerHTML = 'Nível Intermediário';
-            document.querySelector('#skills .sub-title-beginner h1').innerHTML = 'Nível Básico';
+            document.querySelector('#skills .sub-title-beginner h1').innerHTML = 'Nível Iniciante';
 
             document.querySelector('#skills .skill-card-language-1 h2 b').innerHTML = 'Inglês';
             document.querySelector('#skills .skill-card-language-2 h2 b').innerHTML = 'Português';
@@ -165,9 +164,9 @@ function pageLanguage() {
             // SKILLS
             document.querySelector('#skills .title h1').innerHTML = 'My Skills';
 
-            document.querySelector('#skills .sub-title-advanced h1').innerHTML = 'Advanced Skills';
-            document.querySelector('#skills .sub-title-intermediate h1').innerHTML = 'Intermediate Skills';
-            document.querySelector('#skills .sub-title-beginner h1').innerHTML = 'Beginner Skills';
+            document.querySelector('#skills .sub-title-advanced h1').innerHTML = 'Advanced Level';
+            document.querySelector('#skills .sub-title-intermediate h1').innerHTML = 'Intermediate Level';
+            document.querySelector('#skills .sub-title-beginner h1').innerHTML = 'Beginner Level';
 
             document.querySelector('#skills .skill-card-language-1 h2 b').innerHTML = 'English';
             document.querySelector('#skills .skill-card-language-2 h2 b').innerHTML = 'Portuguese';
@@ -203,3 +202,11 @@ function pageLanguage() {
         icon.classList.remove('fade-out');
     }, 150);
 }
+
+document.getElementById('home-link').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
