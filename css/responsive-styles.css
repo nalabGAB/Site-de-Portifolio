@@ -68,7 +68,7 @@
     #language-icon {
         height: 35px;
         margin-top: 2px;
-        border: 3px white solid;
+        border: 3px var(--main-color) solid !important;
     }
 
     /* home -------------------------------------------------------*/

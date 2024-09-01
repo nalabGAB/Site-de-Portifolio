@@ -119,7 +119,7 @@ header {
         position: absolute;
         top: calc(0% + 6px);
         right: calc(3% + 30px);
-        border: white solid;
+        border: var(--main-color) solid !important;
         transition: opacity 0.15s ease;
         cursor: pointer;
         user-select: none;

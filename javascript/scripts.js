@@ -39,13 +39,11 @@ function pageTheme() {
     setTimeout(() => {
         const currentIcon = icon.textContent.trim();
 
-        const body = document.querySelector('body');
         const geral = document.documentElement;
         const languageIcon = document.getElementById('language-icon');
 
         if (currentIcon === 'dark_mode') {
             icon.textContent = 'light_mode';
-            languageIcon.style.border = "black solid";
             geral.style.setProperty('--main-color', 'black');
             geral.style.setProperty('--sec-color', 'seagreen');
             geral.style.setProperty('--bg-color', '#E2E2E2');
