@@ -123,6 +123,7 @@
     /* skills -------------------------------------------------------*/
 
     .sub-title-advanced, .sub-title-intermediate, .sub-title-beginner {
+        font-size: 1.5em;
         margin-left: 5%;
         margin-right: 5%;
         width: 90%;
