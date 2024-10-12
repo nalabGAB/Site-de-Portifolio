@@ -7,4 +7,4 @@ This is my portfolio. All of my projects, awards, and skills are in here:
 # Features
 <p>The website showcases my skills in HTML, CSS, and JavaScript, as well as a few APIs.</p>
 
-![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![HTML5 Badge](https://nalabportfolio.netlify.app/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
