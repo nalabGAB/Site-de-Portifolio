@@ -2,7 +2,7 @@
 This is my portfolio. All of my projects, awards, and skills are in here:
 
 > [!IMPORTANT] 
-> [![Portfolio Badge](https://img.shields.io/badge/Site%20de%20Portif%C3%B3lio-259c4d?style=for-the-badge)](https://nalabportfolio.netlify.app)
+> [![Portfolio Badge](https://img.shields.io/badge/Site%20de%20Portif%C3%B3lio-1d803e?style=for-the-badge)](https://nalabportfolio.netlify.app)
 
 # Features
 <p>The website showcases my skills in HTML, CSS, and JavaScript, as well as a few APIs.</p>
