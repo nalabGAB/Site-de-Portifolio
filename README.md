@@ -2,7 +2,8 @@
 This is my portfolio. All of my projects, awards, and skills are in here:
 
 > [!IMPORTANT] 
-> Click the button to enter the website:
+> <p>Click the button to enter the website:</p><br>
+
 > [![Portfolio Badge](https://img.shields.io/badge/Portfolio-1d803e?style=for-the-badge)](https://nalabportfolio.netlify.app)
 
 # Features
