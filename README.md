@@ -7,8 +7,4 @@ This is my portfolio. All of my projects, awards, and skills are in here:
 # Features
 <p>The website showcases my skills in HTML, CSS, and JavaScript, as well as a few APIs.</p>
 
-[![Button Icon]][Link]
-<!----------------------------------------------------------------------------->
-[Link]: # 'Link with example title.'
-<!---------------------------------[ Buttons ]--------------------------------->
-[Button Icon]: https://img.shields.io/badge/Installation-EF2D5E?style=for-the-badge&logoColor=white&logo=DocuSign
+![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
