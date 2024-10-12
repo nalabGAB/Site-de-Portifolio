@@ -2,7 +2,7 @@
 This is my portfolio. All of my projects, awards, and skills are in here:
 
 > [!IMPORTANT] 
-> [![HTML Badge](https://img.shields.io/badge/Site%20de%20Portifólio-00FF7F)](#)
+> [![HTML Badge](https://img.shields.io/badge/Site%20de%20Portifólio-090c0a)](#)
 
 # Features
 <p>The website showcases my skills in HTML, CSS, and JavaScript, as well as a few APIs.</p>
