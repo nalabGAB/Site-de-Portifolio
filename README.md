@@ -2,7 +2,7 @@
 This is my portfolio. All of my projects, awards, and skills are in here:
 
 > [!IMPORTANT] 
-> [![Portfolio Badge](https://img.shields.io/badge/Site%20de%20Portifólio-00FF7F?style=for-the-badge&logoColor=black&logo=DocuSign)](#)
+> [![Portfolio Badge](https://img.shields.io/badge/Site%20de%20Portifólio-00FF7F?style=for-the-badge&logoColor=black&logo=DocuSign&labelColor=000000)](#)
 
 # Features
 <p>The website showcases my skills in HTML, CSS, and JavaScript, as well as a few APIs.</p>
