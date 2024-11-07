@@ -141,6 +141,9 @@ function pageLanguage() {
             document.querySelector('#certificates #certificate-card-cuco h2').innerHTML = 'Selo de Ouro - Aluno Destaque na Escola';
             document.querySelector('#certificates #certificate-card-cuco p').innerHTML = 'Concedido por CUCO, correspondente a pontuação total de 89% na "Competição USP de Conhecimentos e Oportunidades".';
 
+            document.querySelector('#certificates #certificate-card-onc h2').innerHTML = 'Menção Honrosa de Ciências';
+            document.querySelector('#certificates #certificate-card-onc p').innerHTML = 'Concedido pela ONC (Olimpiadas Nacional de Ciências), correspondente a adquirir uma alta pontuação na prova da segunda fase.';
+
             // CONTACT
             document.querySelector('#contact .title h1').innerHTML = 'Me Contate';
 
@@ -207,6 +210,9 @@ function pageLanguage() {
 
             document.querySelector('#certificates #certificate-card-cuco h2').innerHTML = 'Gold Seal of Prominence in School';
             document.querySelector('#certificates #certificate-card-cuco p').innerHTML = 'Granted by CUCO, corresponding to 89% total score in the seventh edition of "USP Knowladge and Oportunity Contest".';
+
+            document.querySelector('#certificates #certificate-card-onc h2').innerHTML = 'Science Honorable Mention';
+            document.querySelector('#certificates #certificate-card-onc p').innerHTML = 'Granted by ONC (National Science Olympiad), corresponding to acquiring a high score on the second phase test.';
 
             // CONTACT
             document.querySelector('#contact .title h1').innerHTML = 'Contact Me';

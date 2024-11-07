@@ -13,6 +13,8 @@
     --bg-color: #0b0b0b;
     --gradient-bg-color-1: #0C0C0C;
     --gradient-bg-color-2: #090c0a;
+
+    transition: all 0.5s ease;
 }
 
 .hidden {
@@ -90,6 +92,8 @@ header {
     width: 100%;
     background-color: var(--bg-color);
     z-index: 1;
+
+    transition: all 0.5s ease;
 }
 
 @media only screen and (min-width: 1280px) {
@@ -123,6 +127,8 @@ header {
         transition: opacity 0.15s ease;
         cursor: pointer;
         user-select: none;
+
+        transition: all 0.5s ease;
     }
 
     #theme-icon {
@@ -195,6 +201,8 @@ body {
     background: linear-gradient(-45deg, var(--gradient-bg-color-1), var(--gradient-bg-color-2), var(--gradient-bg-color-1), var(--gradient-bg-color-2));
     background-size: 400% 400%;
     animation: gradient 9s ease infinite;
+
+    transition: all 0.5s ease;
 }
 
 @keyframes gradient {
@@ -251,6 +259,7 @@ body {
     h1 {
         text-decoration: underline;
         color: var(--sec-color);
+        transition: all 0.5s ease;
     };
 }
 
@@ -306,6 +315,7 @@ footer div {
     justify-content: center;
     background-color: var(--bg-color);
     width: 100%;
+    transition: all 0.5s ease;
 
     a {
         color: var(--sec-color);
@@ -356,6 +366,7 @@ footer div {
     border-radius: 15px;
     position: relative;
     user-select: none;
+    transition: all 0.5s ease;
     i {
         display: flex;
         align-items: center;
@@ -388,6 +399,7 @@ footer div {
     border-radius: 15px;
     position: relative;
     user-select: none;
+    transition: all 0.5s ease;
     i {
         display: flex;
         align-items: center;
@@ -421,6 +433,7 @@ footer div {
     border-radius: 15px;
     position: relative;
     user-select: none;
+    transition: all 0.5s ease;
     i {
         display: flex;
         align-items: center;
@@ -454,6 +467,7 @@ footer div {
     border-radius: 15px;
     position: relative;
     user-select: none;
+    transition: all 0.5s ease;
     i {
         display: flex;
         align-items: center;
@@ -490,6 +504,7 @@ footer div {
     padding: 15px 20px;
     border-radius: 15px;
     position: relative;
+    transition: all 0.5s ease;
     h2, #features {
         text-align: center;
         user-select: none;
@@ -500,6 +515,8 @@ footer div {
         border-radius: 5%;
         box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
         width: 100%;
+
+        transition: all 0.5s ease;
     };
 
     img:hover {
@@ -550,6 +567,7 @@ footer div {
     padding: 15px 20px;
     border-radius: 15px;
     position: relative;
+    transition: all 0.5s ease;
     h2 {
         text-align: center;
         user-select: none;
@@ -596,6 +614,8 @@ footer div {
         font-size: 24px;
         color: var(--main-color);
         background-color: var(--bg-color);
+
+        transition: all 0.5s ease;
     }
 }
 
