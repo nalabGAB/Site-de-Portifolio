@@ -212,7 +212,7 @@ function pageLanguage() {
             document.querySelector('#certificates #certificate-card-cuco p').innerHTML = 'Granted by CUCO, corresponding to 89% total score in the seventh edition of "USP Knowladge and Oportunity Contest".';
 
             document.querySelector('#certificates #certificate-card-onc h2').innerHTML = 'Science Honorable Mention';
-            document.querySelector('#certificates #certificate-card-onc p').innerHTML = 'Granted by ONC (National Science Olympiad), corresponding to acquiring a high score on the second phase test.';
+            document.querySelector('#certificates #certificate-card-onc p').innerHTML = 'Granted by ONC (National Science Olympiad), corresponding to acquiring a high score on the test for the second phase.';
 
             // CONTACT
             document.querySelector('#contact .title h1').innerHTML = 'Contact Me';
