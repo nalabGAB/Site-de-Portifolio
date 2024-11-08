@@ -200,7 +200,7 @@ nav {
 
 body {
     background: linear-gradient(135deg, var(--gradient-bg-color-1), var(--gradient-bg-color-2), var(--gradient-bg-color-3));
-    background-size: 100%;
+    background-size: 200%;
     animation: gradient 25s ease-in-out infinite;
 }
 
