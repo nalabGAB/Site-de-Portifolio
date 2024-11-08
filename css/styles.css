@@ -11,8 +11,9 @@
     --main-color: white;
     --sec-color: springgreen;
     --bg-color: #0b0b0b;
-    --gradient-bg-color-1: #0C0C0C;
-    --gradient-bg-color-2: #090c0a;
+    --gradient-bg-color-1: #0c1610;
+    --gradient-bg-color-2: #010101;
+    --gradient-bg-color-3: #100c16;
 
     transition: all 0.5s ease;
 }
@@ -198,19 +199,20 @@ nav {
 /* body -------------------------------------------------------*/
 
 body {
-    background: linear-gradient(-45deg, var(--gradient-bg-color-1), var(--gradient-bg-color-2), var(--gradient-bg-color-1), var(--gradient-bg-color-2));
-    background-size: 400% 400%;
-    animation: gradient 9s ease infinite;
-
-    transition: all 0.5s ease;
+    background: linear-gradient(135deg, var(--gradient-bg-color-1), var(--gradient-bg-color-2), var(--gradient-bg-color-3));
+    background-size: 100%;
+    animation: gradient 25s ease-in-out infinite;
 }
 
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
-    50% {
+    33% {
         background-position: 100% 50%;
+    }
+    66% {
+        background-position: 50% 100%;
     }
     100% {
         background-position: 0% 50%;

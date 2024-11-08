@@ -47,17 +47,18 @@ function pageTheme() {
             geral.style.setProperty('--main-color', 'black');
             geral.style.setProperty('--sec-color', 'seagreen');
             geral.style.setProperty('--bg-color', '#E2E2E2');
-            geral.style.setProperty('--gradient-bg-color-1', '#f3f3f3');
-            geral.style.setProperty('--gradient-bg-color-2', '#e9f8e9');
-
+            geral.style.setProperty('--gradient-bg-color-1', '#b5ffd2');
+            geral.style.setProperty('--gradient-bg-color-2', '#f0f0f0');
+            geral.style.setProperty('--gradient-bg-color-3', '#c4a9ec');
         } else {
             icon.textContent = 'dark_mode';
             languageIcon.style.border = "white solid";
             geral.style.setProperty('--main-color', 'white');
             geral.style.setProperty('--sec-color', 'springgreen');
             geral.style.setProperty('--bg-color', '#0b0b0b');
-            geral.style.setProperty('--gradient-bg-color-1', '#0C0C0C');
-            geral.style.setProperty('--gradient-bg-color-2', '#050a07');
+            geral.style.setProperty('--gradient-bg-color-1', '#0c1610');
+            geral.style.setProperty('--gradient-bg-color-2', '#010101');
+            geral.style.setProperty('--gradient-bg-color-3', '#100c16');
         }
 
         icon.classList.remove('fade-out');
