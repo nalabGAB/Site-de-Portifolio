@@ -222,9 +222,9 @@ function pageLanguage() {
             document.querySelector('#contact #submit').value = 'Send';
 
             // FOOTER
-            document.querySelector('.footer-fixed p').innerHTML = 'Site made by <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify</a>';
+            document.querySelector('.footer-fixed p').innerHTML = 'Site made by <a href="https://linktr.ee/nalab123" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify</a>';
 
-            document.querySelector('.footer-fixed-relative p').innerHTML = 'Site made by <a href="https://linktr.ee/gabrielazanhabalan" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify</a>';
+            document.querySelector('.footer-fixed-relative p').innerHTML = 'Site made by <a href="https://linktr.ee/nalab123" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify</a>';
             document.querySelector('.footer-absolute p').innerHTML = '© 2024 copyright all rights reserved';
         }
 
