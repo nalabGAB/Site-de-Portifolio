@@ -233,7 +233,7 @@ function pageLanguage() {
 }
 
 document.getElementById('home-link').addEventListener('click', function(e) {
-    e.preventDefault();
+    window.location.hash = 'home';
     window.scrollTo({
         top: 0,
         behavior: 'smooth'

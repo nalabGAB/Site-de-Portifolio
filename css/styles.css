@@ -187,6 +187,8 @@ nav {
     gap: 25px;
 
     a {
+        user-select: none;
+        cursor: pointer;
         padding: 10px;
     }
 
