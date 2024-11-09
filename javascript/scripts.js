@@ -97,7 +97,7 @@ function pageLanguage() {
                     link.textContent = translationsENPT[text];
                 }
             });
-            
+
             // HOME
             document.querySelector('#home h1').innerHTML = 'Olá,<br>Sou <span style="color: var(--sec-color)">Gabriel</span><br><span style="font-family: Inconsolata">Desenvolvedor de Sistemas</span>';
 
@@ -112,9 +112,16 @@ function pageLanguage() {
             document.querySelector('#skills .sub-title-intermediate h1').innerHTML = 'Nível Intermediário';
             document.querySelector('#skills .sub-title-beginner h1').innerHTML = 'Nível Iniciante';
 
-            document.querySelector('#skills .skill-card-language-1 h2 b').innerHTML = 'Inglês';
-            document.querySelector('#skills .skill-card-language-2 h2 b').innerHTML = 'Português';
-            document.querySelector('#skills .skill-card-language-3 h2 b').innerHTML = 'Espanhol';
+            document.querySelector('#skills #skill-card-language-1 h2 b').innerHTML = 'Inglês';
+            document.querySelector('#skills #skill-card-language-2 h2 b').innerHTML = 'Português';
+            document.querySelector('#skills #skill-card-language-3 h2 b').innerHTML = 'Espanhol';
+
+            document.querySelectorAll('#skills .skill-card #since').forEach(element => {
+                element.innerHTML = 'Desde';
+            });
+            document.querySelectorAll('#skills .skill-card #native').forEach(element => {
+                element.innerHTML = '(Nativo)';
+            });
 
             // PROJECTS
             document.querySelector('#projects .title h1').innerHTML = 'Projetos';
@@ -135,7 +142,7 @@ function pageLanguage() {
 
             document.querySelector('#certificates #certificate-card-python h2').innerHTML = 'Curso de Python';
             document.querySelector('#certificates #certificate-card-python p').innerHTML = 'Concedido por Empowerdata, correspondente a conclusão do curso remoto "Semana do Python na Prática".';
-            
+
             document.querySelector('#certificates #certificate-card-toeic h2').innerHTML = 'Proficiência em Inglês';
             document.querySelector('#certificates #certificate-card-toeic p').innerHTML = 'Concedido por TOEIC, correspondente a pontuação total de 94% no teste "TOEIC Bridge® Listening and Reading Test".';
 
@@ -182,9 +189,16 @@ function pageLanguage() {
             document.querySelector('#skills .sub-title-intermediate h1').innerHTML = 'Intermediate Level';
             document.querySelector('#skills .sub-title-beginner h1').innerHTML = 'Beginner Level';
 
-            document.querySelector('#skills .skill-card-language-1 h2 b').innerHTML = 'English';
-            document.querySelector('#skills .skill-card-language-2 h2 b').innerHTML = 'Portuguese';
-            document.querySelector('#skills .skill-card-language-3 h2 b').innerHTML = 'Spanish';
+            document.querySelector('#skills #skill-card-language-1 h2 b').innerHTML = 'English';
+            document.querySelector('#skills #skill-card-language-2 h2 b').innerHTML = 'Portuguese';
+            document.querySelector('#skills #skill-card-language-3 h2 b').innerHTML = 'Spanish';
+
+            document.querySelectorAll('#skills .skill-card #since').forEach(element => {
+                element.innerHTML = 'Since';
+            });
+            document.querySelectorAll('#skills .skill-card #native').forEach(element => {
+                element.innerHTML = '(Native)';
+            });
 
             // PROJECTS
             document.querySelector('#projects .title h1').innerHTML = 'My Projects';
@@ -205,7 +219,7 @@ function pageLanguage() {
 
             document.querySelector('#certificates #certificate-card-python h2').innerHTML = 'Python Course';
             document.querySelector('#certificates #certificate-card-python p').innerHTML = 'Granted by Empowerdata, corresponding to the completion of the "Semana do Python na Prática" online course.';
-            
+
             document.querySelector('#certificates #certificate-card-toeic h2').innerHTML = 'English Proficiency';
             document.querySelector('#certificates #certificate-card-toeic p').innerHTML = 'Granted by TOEIC, corresponding to 94% total score in "TOEIC Bridge® Listening and Reading Test".';
 
@@ -232,7 +246,7 @@ function pageLanguage() {
     }, 150);
 }
 
-document.getElementById('home-link').addEventListener('click', function(e) {
+document.getElementById('home-link').addEventListener('click', function (e) {
     window.location.hash = 'home';
     window.scrollTo({
         top: 0,
@@ -244,8 +258,8 @@ function mobileMenu() {
     var nav = document.querySelector('nav');
 
     if (nav.style.display === "inline-block") {
-      nav.style.display = "none";
+        nav.style.display = "none";
     } else {
-      nav.style.display = "inline-block";
+        nav.style.display = "inline-block";
     }
-  }
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +9,15 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive-styles.css">
     <!--icons-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!--captcha-->
     <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
 </head>
+
 <body>
     <script src="javascript/captcha.js"></script>
     <header>
@@ -28,7 +31,7 @@
             <a href="https://github.com/nalabGAB" target="_blank">
                 <i id="github-icon" class="fa fa-github" style="font-size: 33px;"></i>
             </a>
-            
+
             <a href="https://www.linkedin.com/in/gabriel-azanha-balan-7b23b52b6" target="_blank">
                 <i id="linkedin-icon" class="fa fa-linkedin" style="font-size: 33px;"></i>
             </a>
@@ -37,7 +40,7 @@
                 <i id="monkeytype-icon" class="fa fa-keyboard-o" style="font-size: 33px;"></i>
             </a>
         </div>
-        
+
         <div class="function-icons">
             <i id="language-icon" class="fi fi-gb" style="font-size: 35px;" onclick="pageLanguage()"></i>
 
@@ -82,19 +85,20 @@
         </div>
 
         <div class="about-container">
-            
+
             <div class="about-text">
                 <h1>Gabriel "nalab" Azanha Balan</h1>
-                <p>I am currently studying System Devlopment at a vocational-technical high-school. 
-                    I want to focus on learning about Back-End development, mainly Artificial Intelligence 
-                    and Machine Learning. I love spending time challenging myself with coding projects, and I'm highly adaptable to new challenges and projects. 
+                <p>I am currently studying System Devlopment at a vocational-technical high-school.
+                    I want to focus on learning about Back-End development, mainly Artificial Intelligence
+                    and Machine Learning. I love spending time challenging myself with coding projects, and I'm highly
+                    adaptable to new challenges and projects.
                     My main skills are: English, Python, HTML, CSS, JavaScript, MySQL.</p>
             </div>
-            
+
             <div class="about-img">
                 <img src="assets/images/programacao.jpg">
             </div>
-                    
+
         </div>
     </section>
 
@@ -108,19 +112,37 @@
             <h1>Advanced Level</h1>
         </div>
 
-        <div class="skills-container-advanced">
+        <div class="skills-container">
 
-            <div class="skill-card-language-1">
-                <i class="material-symbols-outlined">translate</i><h2><b>English</b></h2>
-                <p></p>
+            <div class="skill-card" id="skill-card-language-1">
+                <div class="main">
+                    <i class="material-symbols-outlined">translate</i>
+                    <h2><b>English</b></h2>
+                </div>
+                <div class="invisible">
+                    <p class="translate" id="since">Since</p>&nbsp;<p>2016</p>
+                    
+                </div>
             </div>
 
-            <div class="skill-card-language-2">
-                <i class="material-symbols-outlined">translate</i><h2><b>Portuguese</b></h2>
+            <div class="skill-card" id="skill-card-language-2">
+                <div class="main">
+                    <i class="material-symbols-outlined">translate</i>
+                    <h2><b>Portuguese</b></h2>
+                </div>
+                <div class="invisible">
+                    <p class="translate" id="since">Since</p>&nbsp;<p>2012</p>&nbsp;<p class="translate" id="native">(Native)</p>
+                </div>
             </div>
-            
-            <div class="skill-card-advanced">
-                <i class="fa fa-google" aria-hidden="true"></i><h2><b>Google Workspace</b></h2>
+
+            <div class="skill-card">
+                <div class="main">
+                    <i class="fa fa-google" aria-hidden="true"></i>
+                    <h2><b>Google Workspace</b></h2>
+                </div>
+                <div class="invisible">
+                    <p class="translate" id="since">Since</p>&nbsp;<p>2019</p>
+                </div>
             </div>
 
         </div>
@@ -129,26 +151,46 @@
             <h1>Intermediate Level</h1>
         </div>
 
-        <div class="skills-container-intermediate">
+        <div class="skills-container">
 
-            <div class="skill-card-intermediate">
-                <i class='bx bxs-spreadsheet'></i><h2><b>Excel</b></h2>
-                <p></p>
+            <div class="skill-card">
+                <div class="main">
+                    <i class='bx bxs-spreadsheet'></i>
+                    <h2><b>Excel</b></h2>
+                </div>
+                <div class="invisible">
+                    <p class="translate" id="since">Since</p>&nbsp;<p>2021</p>
+                </div>
             </div>
 
-            <div class="skill-card-intermediate">
-                <i id="github-icon" class="fa fa-github"></i><h2><b>Github</b></h2>
-                <p></p>
+            <div class="skill-card">
+                <div class="main">
+                    <i id="github-icon" class="fa fa-github"></i>
+                    <h2><b>Github</b></h2>
+                </div>
+                <div class="invisible">
+                    <p class="translate" id="since">Since</p>&nbsp;<p>2023</p>
+                </div>
             </div>
 
-            <div class="skill-card-intermediate">
-                <i class="fa fa-html5" aria-hidden="true"></i><h2><b>HTML</b></h2>
-                <p></p>
+            <div class="skill-card">
+                <div class="main">
+                    <i class="fa fa-html5" aria-hidden="true"></i>
+                    <h2><b>HTML</b></h2>
+                </div>
+                <div class="invisible">
+                    <p class="translate" id="since">Since</p>&nbsp;<p>2023</p>
+                </div>
             </div>
 
-            <div class="skill-card-intermediate">
-                <i class="fa fa-css3" aria-hidden="true"></i><h2><b>CSS</b></h2>
-                <p></p>
+            <div class="skill-card">
+                <div class="main">
+                    <i class="fa fa-css3" aria-hidden="true"></i>
+                    <h2><b>CSS</b></h2>
+                </div>
+                <div class="invisible">
+                    <p class="translate" id="since">Since</p>&nbsp;<p>2023</p>
+                </div>
             </div>
 
         </div>
@@ -157,35 +199,76 @@
             <h1>Beginner Level</h1>
         </div>
 
-        <div class="skills-container-beginner">
+        <div class="skills-container">
 
-            <div class="skill-card-beginner">
-                <i class='bx bxl-python'></i></i><h2><b>Python</b></h2>
-                <p></p>
+            <div class="skill-card">
+                <div class="main">
+                    <i class='bx bxl-python'></i></i>
+                    <h2><b>Python</b></h2>
+                </div>
+                <div class="invisible">
+                    <p class="translate" id="since">Since</p>&nbsp;<p>2024</p>
+                </div>
             </div>
 
-            <div class="skill-card-beginner">
-                <i class='bx bxl-javascript'></i><h2><b>JavaScript</b></h2>
-                <p></p>
+            <div class="skill-card">
+                <div class="main">
+                    <i class='bx bxl-javascript'></i>
+                    <h2><b>JavaScript</b></h2>
+                </div>
+                <div class="invisible">
+                    <p class="translate" id="since">Since</p>&nbsp;<p>2023</p>
+                </div>
             </div>
 
-            <div class="skill-card-beginner">
-                <i class='bx bxl-php'></i><h2><b>PHP</b></h2>
-                <p></p>
+            <div class="skill-card">
+                <div class="main">
+                    <i class='bx bxl-php'></i>
+                    <h2><b>PHP</b></h2>
+                </div>
+                <div class="invisible">
+                    <p class="translate" id="since">Since</p>&nbsp;<p>2024</p>
+                </div>
             </div>
 
-            <div class="skill-card-beginner">
-                <i class="material-symbols-outlined">database</i><h2><b>MySQL</b></h2>
-                <p></p>
+            <div class="skill-card">
+                <div class="main">
+                    <i class="material-symbols-outlined">database</i>
+                    <h2><b>MySQL</b></h2>
+                </div>
+                <div class="invisible">
+                    <p class="translate" id="since">Since</p>&nbsp;<p>2024</p>
+                </div>
             </div>
 
-            <div class="skill-card-beginner">
-                <i class='bx bx-code-alt'></i></i><h2><b>C#</b></h2>
-                <p></p>
+            <div class="skill-card">
+                <div class="main">
+                    <i class='bx bx-code-alt'></i></i>
+                    <h2><b>C#</b></h2>
+                </div>
+                <div class="invisible">
+                    <p class="translate" id="since">Since</p>&nbsp;<p>2024</p>
+                </div>
             </div>
 
-            <div class="skill-card-language-3">
-                <i class="material-symbols-outlined">translate</i><h2><b>Spanish</b></h2>
+            <div class="skill-card">
+                <div class="main">
+                    <i class='bx bxl-react'></i></i>
+                    <h2><b>React JS</b></h2>
+                </div>
+                <div class="invisible">
+                    <p class="translate" id="since">Since</p>&nbsp;<p>2024</p>
+                </div>
+            </div>
+
+            <div class="skill-card" id="skill-card-language-3">
+                <div class="main">
+                    <i class="material-symbols-outlined">translate</i>
+                    <h2><b>Spanish</b></h2>
+                </div>
+                <div class="invisible">
+                    <p class="translate" id="since">Since</p>&nbsp;<p>2023</p>
+                </div>
             </div>
 
         </div>
@@ -199,31 +282,37 @@
         </div>
 
         <div class="project-container">
-            
+
             <div class="project-card" id="project-card-portfolio">
-                <a href="https://github.com/nalabGAB/Site-de-Portifolio" target="_blank"><img src="assets/projects/portfolio-website.png"></a>
+                <a href="https://github.com/nalabGAB/Site-de-Portifolio" target="_blank"><img
+                        src="assets/projects/portfolio-website.png"></a>
                 <h2 id="project-title">Portfolio Website</h2>
                 <h3 id="features">HTML, CSS, JS, APIs</h3>
                 <h2>
-                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bx-star'></i><i
+                        class='bx bx-star'></i><i class='bx bx-star'></i>
                 </h2>
                 <h3 id="date" class="invisible"><em>August 2024</em></h3>
-                <p class="invisible">Website made to test and showcase my skills in HTML, CSS, and JavaScript. Including reCAPTCHA API, web3forms hosting, and netlify deploy.</p>
+                <p class="invisible">Website made to test and showcase my skills in HTML, CSS, and JavaScript. Including
+                    reCAPTCHA API, web3forms hosting, and netlify deploy.</p>
             </div>
 
             <div class="project-card" id="project-card-quiz">
-                <a href="https://github.com/nalabGAB/Quiz" target="_blank"><img src="assets/projects/quiz-csharp.png"></a>
+                <a href="https://github.com/nalabGAB/Quiz" target="_blank"><img
+                        src="assets/projects/quiz-csharp.png"></a>
                 <h2 id="project-title">Simple Quiz</h2>
                 <h3 id="features">C#</h3>
                 <h2>
-                    <i class='bx bxs-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                    <i class='bx bxs-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i
+                        class='bx bx-star'></i><i class='bx bx-star'></i>
                 </h2>
                 <h3 id="date" class="invisible"><em>June 2024</em></h3>
-                <p class="invisible">Quiz made at ETEC vocational-technical high-school to learn about menus and changing screens in C#.</p>
+                <p class="invisible">Quiz made at ETEC vocational-technical high-school to learn about menus and
+                    changing screens in C#.</p>
             </div>
 
         </div>
-        
+
     </section>
 
     <section id="certificates">
@@ -233,44 +322,54 @@
         </div>
 
         <div class="certificate-container">
-            
+
             <div class="certificate-card" id="certificate-card-etec">
-                <a href="https://ugc.production.linktr.ee/f69966f4-c863-4a4b-9c20-c93cbcd8b157_certificadoetec.pdf" target="_blank"><img src="assets/certificates/certificado-etec.png"></a>
+                <a href="https://ugc.production.linktr.ee/f69966f4-c863-4a4b-9c20-c93cbcd8b157_certificadoetec.pdf"
+                    target="_blank"><img src="assets/certificates/certificado-etec.png"></a>
                 <h2>System Developer Assistant</h2>
                 <h3 class="invisible"><em>2023</em></h3>
-                <p class="invisible">Granted by ETEC, corresponding to the completion of the 1st year of high school with professional qualification in system development vocational-technical training.</p>
+                <p class="invisible">Granted by ETEC, corresponding to the completion of the 1st year of high school
+                    with professional qualification in system development vocational-technical training.</p>
             </div>
 
             <div class="certificate-card" id="certificate-card-python">
-                <a href="https://ugc.production.linktr.ee/a16a3b02-7415-4b24-bcd8-83fc471f5917_certificadopython.pdf" target="_blank"><img src="assets/certificates/certificado-python.png"></a>
+                <a href="https://ugc.production.linktr.ee/a16a3b02-7415-4b24-bcd8-83fc471f5917_certificadopython.pdf"
+                    target="_blank"><img src="assets/certificates/certificado-python.png"></a>
                 <h2>Python Course</h2>
                 <h3 class="invisible"><em>2024</em></h3>
-                <p class="invisible">Granted by Empowerdata, corresponding to the completion of the "Semana do Python na Prática" online course.</p>
+                <p class="invisible">Granted by Empowerdata, corresponding to the completion of the "Semana do Python na
+                    Prática" online course.</p>
             </div>
 
             <div class="certificate-card" id="certificate-card-toeic">
-                <a href="https://ugc.production.linktr.ee/74530302-3f6f-4eb7-8615-04b1de95b89a_certificadotoeic.pdf" target="_blank"><img src="assets/certificates/certificado-toeic.png"></a>
+                <a href="https://ugc.production.linktr.ee/74530302-3f6f-4eb7-8615-04b1de95b89a_certificadotoeic.pdf"
+                    target="_blank"><img src="assets/certificates/certificado-toeic.png"></a>
                 <h2>English Proficiency</h2>
                 <h3 class="invisible"><em>2023</em></h3>
-                <p class="invisible">Granted by TOEIC, corresponding to 94% total score in "TOEIC Bridge® Listening and Reading Test".</p>
+                <p class="invisible">Granted by TOEIC, corresponding to 94% total score in "TOEIC Bridge® Listening and
+                    Reading Test".</p>
             </div>
 
             <div class="certificate-card" id="certificate-card-cuco">
-                <a href="https://ugc.production.linktr.ee/1d5b1113-6cce-4649-9a84-1b3f8c7e0e82_cuco-2023.pdf" target="_blank"><img src="assets/certificates/cuco-2023.png"></a>
+                <a href="https://ugc.production.linktr.ee/1d5b1113-6cce-4649-9a84-1b3f8c7e0e82_cuco-2023.pdf"
+                    target="_blank"><img src="assets/certificates/cuco-2023.png"></a>
                 <h2>Gold Seal of Prominence in School</h2>
                 <h3 class="invisible"><em>2023</em></h3>
-                <p class="invisible">Granted by CUCO, corresponding to 89% total score in the seventh edition of "USP Knowladge and Oportunity Contest".</p>
+                <p class="invisible">Granted by CUCO, corresponding to 89% total score in the seventh edition of "USP
+                    Knowladge and Oportunity Contest".</p>
             </div>
 
             <div class="certificate-card" id="certificate-card-onc">
-                <a href="https://ugc.production.linktr.ee/a331940c-ca97-48df-b94b-c4ceac23b0bb_Certificado-de-GABRIEL-AZANHA-BALAN-na-Olimp-ada-Nacional-de-Ci-ncias.pdf" target="_blank"><img src="assets/certificates/certificado-ONC.png"></a>
+                <a href="https://ugc.production.linktr.ee/a331940c-ca97-48df-b94b-c4ceac23b0bb_Certificado-de-GABRIEL-AZANHA-BALAN-na-Olimp-ada-Nacional-de-Ci-ncias.pdf"
+                    target="_blank"><img src="assets/certificates/certificado-ONC.png"></a>
                 <h2>Science Honorable Mention</h2>
                 <h3 class="invisible"><em>2024</em></h3>
-                <p class="invisible">Granted by ONC (National Science Olympiad), corresponding to acquiring a high score on the test for the second phase.</p>
+                <p class="invisible">Granted by ONC (National Science Olympiad), corresponding to acquiring a high score
+                    on the test for the second phase.</p>
             </div>
 
         </div>
-        
+
     </section>
 
     <section id="contact">
@@ -278,9 +377,9 @@
         <div class="title">
             <h1>Contact Me</h1>
         </div>
-        
+
         <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
-            
+
             <input type="hidden" name="access_key" value="fdbbdba4-0e49-4c90-aa8f-3d8d81c8029f">
             <!--<input type="hidden" name="redirect" value="https://nalabportfolio.netlify.app">-->
             <input type="hidden" id="recaptcha-token" name="recaptcha-token">
@@ -295,7 +394,8 @@
     <footer>
 
         <div class="footer-fixed">
-            <p>Site made by <a href="https://linktr.ee/nalab123" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify</p></a>
+            <p>Site made by <a href="https://linktr.ee/nalab123" target="_blank">nalab</a> for <a
+                    href="https://www.netlify.com" target="_blank">netlify</p></a>
         </div>
 
     </footer>
@@ -303,7 +403,8 @@
     <footer>
 
         <div class="footer-fixed-relative">
-            <p>Site made by <a href="https://linktr.ee/nalab123" target="_blank">nalab</a> for <a href="https://www.netlify.com" target="_blank">netlify</p></a>
+            <p>Site made by <a href="https://linktr.ee/nalab123" target="_blank">nalab</a> for <a
+                    href="https://www.netlify.com" target="_blank">netlify</p></a>
         </div>
 
         <div class="footer-absolute">
@@ -315,4 +416,5 @@
     <!--javascript-->
     <script src="javascript/scripts.js"></script>
 </body>
+
 </html>
