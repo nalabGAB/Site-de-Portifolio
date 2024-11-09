@@ -1,6 +1,29 @@
 /* os códigos a seguir foram feitos com ajuda da internet */
+let typed;
 
-// Função para adicionar e remover a classe de animação quando o elemento entra na tela
+function startTyped(strings) {
+    if (typed) {
+        typed.destroy();
+    }
+    
+    typed = new Typed(".auto-type", {
+        strings: strings,
+        smartBackspace: false,
+        typeSpeed: 50,
+        backSpeed: 25,
+        backDelay: 1500,
+        loop: true
+    });
+}
+
+const typedScript = document.createElement("script");
+typedScript.src = "https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js";
+typedScript.onload = function() {
+    startTyped(["Student", "System Developer", "Full-Stack Developer", "Python Developer"]);
+};
+document.head.appendChild(typedScript);
+document.head.appendChild(typedScript);
+
 function handleIntersection(entries) {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -31,6 +54,8 @@ elementsToAnimate.forEach(element => {
 });
 
 /* os códigos anteriores foram feitos com ajuda da internet */
+
+var strings = ["Student", "System Developer", "Full-Stack Developer", "Python Developer"];
 
 function pageTheme() {
     const icon = document.getElementById('theme-icon');
@@ -99,7 +124,8 @@ function pageLanguage() {
             });
 
             // HOME
-            document.querySelector('#home h1').innerHTML = 'Olá,<br>Sou <span style="color: var(--sec-color)">Gabriel</span><br><span style="font-family: Inconsolata">Desenvolvedor de Sistemas</span>';
+            startTyped(["Estudante", "Desenvolvedor de Sistemas", "Desenvolvedor Full-Stack", "Desenvolvedor Python"]);
+            document.querySelector('#greeting').innerHTML = 'Olá,<br>Sou <span style="color: var(--sec-color)">Gabriel</span>';
 
             // ABOUT
             document.querySelector('#about .title h1').innerHTML = 'Sobre Mim';
@@ -176,7 +202,8 @@ function pageLanguage() {
             });
 
             // HOME
-            document.querySelector('#home h1').innerHTML = 'Hi,<br>I\'m <span style="color: var(--sec-color)">Gabriel</span><br><span style="font-family: Inconsolata">System Developer</span>';
+            startTyped(["Student", "System Developer", "Full-Stack Developer", "Python Developer"]);
+            document.querySelector('#greeting').innerHTML = 'Hi,<br>I\'m <span style="color: var(--sec-color)">Gabriel</span>';
 
             // ABOUT
             document.querySelector('#about .title h1').innerHTML = 'About Me';
