@@ -8,7 +8,7 @@ function startTyped(strings) {
     
     typed = new Typed(".auto-type", {
         strings: strings,
-        smartBackspace: false,
+        smartBackspace: true,
         typeSpeed: 50,
         backSpeed: 25,
         backDelay: 1500,
