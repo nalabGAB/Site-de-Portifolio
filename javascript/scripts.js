@@ -140,7 +140,6 @@ function pageLanguage() {
 
             document.querySelector('#skills #skill-card-language-1 h2 b').innerHTML = 'Inglês';
             document.querySelector('#skills #skill-card-language-2 h2 b').innerHTML = 'Português';
-            document.querySelector('#skills #skill-card-language-3 h2 b').innerHTML = 'Espanhol';
 
             document.querySelectorAll('#skills .skill-card #since').forEach(element => {
                 element.innerHTML = 'Desde';
@@ -218,7 +217,6 @@ function pageLanguage() {
 
             document.querySelector('#skills #skill-card-language-1 h2 b').innerHTML = 'English';
             document.querySelector('#skills #skill-card-language-2 h2 b').innerHTML = 'Portuguese';
-            document.querySelector('#skills #skill-card-language-3 h2 b').innerHTML = 'Spanish';
 
             document.querySelectorAll('#skills .skill-card #since').forEach(element => {
                 element.innerHTML = 'Since';
