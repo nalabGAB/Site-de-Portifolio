@@ -19,7 +19,7 @@ function startTyped(strings) {
 const typedScript = document.createElement("script");
 typedScript.src = "https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js";
 typedScript.onload = function() {
-    startTyped(["Student", "System Developer", "Full-Stack Developer", "Python Developer"]);
+    startTyped(["Student", "System Developer", "Full-Stack Developer", "Machine Learning Developer"]);
 };
 document.head.appendChild(typedScript);
 document.head.appendChild(typedScript);
@@ -55,7 +55,7 @@ elementsToAnimate.forEach(element => {
 
 /* os códigos anteriores foram feitos com ajuda da internet */
 
-var strings = ["Student", "System Developer", "Full-Stack Developer", "Python Developer"];
+var strings = ["Student", "System Developer", "Full-Stack Developer", "Machine Learning Developer"];
 
 function pageTheme() {
     const icon = document.getElementById('theme-icon');
@@ -124,7 +124,7 @@ function pageLanguage() {
             });
 
             // HOME
-            startTyped(["Estudante", "Desenvolvedor de Sistemas", "Desenvolvedor Full-Stack", "Desenvolvedor Python"]);
+            startTyped(["Estudante", "Desenvolvedor de Sistemas", "Desenvolvedor Full-Stack", "Desenvolvedor de Aprendizado de Máquina"]);
             document.querySelector('#greeting').innerHTML = 'Olá,<br>Sou <span style="color: var(--sec-color)">Gabriel</span>';
 
             // ABOUT
@@ -201,7 +201,7 @@ function pageLanguage() {
             });
 
             // HOME
-            startTyped(["Student", "System Developer", "Full-Stack Developer", "Python Developer"]);
+            startTyped(["Student", "System Developer", "Full-Stack Developer", "Machine Learning Developer"]);
             document.querySelector('#greeting').innerHTML = 'Hi,<br>I\'m <span style="color: var(--sec-color)">Gabriel</span>';
 
             // ABOUT
