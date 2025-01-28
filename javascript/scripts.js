@@ -161,15 +161,15 @@ function pageLanguage() {
 
             document.querySelector('#projects #project-card-nova #project-title').innerHTML = 'Projeto NOVA';
             document.querySelector('#projects #project-card-nova #date').innerHTML = 'Janeiro 2024';
-            document.querySelector('#projects #project-card-nova p').innerHTML = 'Acrônimo para "Neural Operations for Versatile Applications" (Operações Neurais para Aplicações Versáteis), é um projeto de Aprendizado de Máquina onde eu planejo criar vários LLMs para diferentes propósitos, incluindo: Gaia - uma IA conversacional para melhorar a fluência em Inglês; Aria - uma IA capaz de fazer lives para Twitch. Está em desenvolvimento, sendo documentada através do Notion. Eu irei desponibilizar a documentação em breve.';
+            document.querySelector('#projects #project-card-nova p').innerHTML = 'Acrônimo para "Neural Operations for Versatile Applications" (Operações Neurais para Aplicações Versáteis), é um projeto de Aprendizado de Máquina onde eu planejo criar vários LLMs para diferentes propósitos, incluindo: Gaia - uma IA conversacional para melhorar a fluência em Inglês; Devy - uma IA capaz de fazer lives para Twitch. Está em desenvolvimento, sendo documentada através do Notion. Eu irei desponibilizar a documentação em breve.';
 
             document.querySelector('#projects #project-card-gaia #project-title').innerHTML = 'Gaia AI (NOVA)';
             document.querySelector('#projects #project-card-gaia #date').innerHTML = 'Janeiro 2025';
             document.querySelector('#projects #project-card-gaia p').innerHTML = 'Parte do Projeto NOVA. Uma IA capaz de falar em Inglês, criando conversas e jogando jogos. Está em desenvolvimento, sendo documentada através do Notion. Eu irei desponibilizar a documentação em breve.';
 
-            document.querySelector('#projects #project-card-aria #project-title').innerHTML = 'Aria AI (NOVA)';
-            document.querySelector('#projects #project-card-aria #date').innerHTML = 'Janeiro 2025';
-            document.querySelector('#projects #project-card-aria p').innerHTML = 'Parte do Projeto NOVA. Uma IA que fala em Português, capaz de engajar com o chat da Twitch, jogando e criando entretenimento.';
+            document.querySelector('#projects #project-card-devy #project-title').innerHTML = 'Devy AI (NOVA)';
+            document.querySelector('#projects #project-card-devy #date').innerHTML = 'Janeiro 2025';
+            document.querySelector('#projects #project-card-devy p').innerHTML = 'Parte do Projeto NOVA. Uma IA que fala em Português, capaz de engajar com o chat da Twitch, jogando e criando entretenimento.';
 
             // CERTIFICATES
             document.querySelector('#certificates .title h1').innerHTML = 'Premiações';
@@ -250,15 +250,15 @@ function pageLanguage() {
 
             document.querySelector('#projects #project-card-nova #project-title').innerHTML = 'Project NOVA';
             document.querySelector('#projects #project-card-nova #date').innerHTML = 'January 2024';
-            document.querySelector('#projects #project-card-nova p').innerHTML = 'Acronym for "Neural Operations for Versatile Applications", it\'s a Machine Learning project where I plan to build multiple LLMs for different porpouses, including: Gaia - a conversational AI to improve English fluency; Aria - a streamer AI for Twitch. It\'s currently under development and documented through Notion. I will release the documentation soon.';
+            document.querySelector('#projects #project-card-nova p').innerHTML = 'Acronym for "Neural Operations for Versatile Applications", it\'s a Machine Learning project where I plan to build multiple LLMs for different porpouses, including: Gaia - a conversational AI to improve English fluency; Devy - a streamer AI for Twitch. It\'s currently under development and documented through Notion. I will release the documentation soon.';
 
             document.querySelector('#projects #project-card-gaia #project-title').innerHTML = 'Gaia AI (NOVA)';
             document.querySelector('#projects #project-card-gaia #date').innerHTML = 'January 2025';
             document.querySelector('#projects #project-card-gaia p').innerHTML = 'Part of the NOVA Project. An AI that can talk in English, creating conversations and playing games. It\'s currently under development and documented through Notion. I will release the documentation soon.';
 
-            document.querySelector('#projects #project-card-aria #project-title').innerHTML = 'Aria AI (NOVA)';
-            document.querySelector('#projects #project-card-aria #date').innerHTML = 'January 2025';
-            document.querySelector('#projects #project-card-aria p').innerHTML = 'Part of the NOVA Project. An AI that speaks in Portuguese and is able to engage with Twitch chat, playing games and creating entertainment.';
+            document.querySelector('#projects #project-card-devy #project-title').innerHTML = 'Devy AI (NOVA)';
+            document.querySelector('#projects #project-card-devy #date').innerHTML = 'January 2025';
+            document.querySelector('#projects #project-card-devy p').innerHTML = 'Part of the NOVA Project. An AI that speaks in Portuguese and is able to engage with Twitch chat, playing games and creating entertainment.';
 
             // CERTIFICATES
             document.querySelector('#certificates .title h1').innerHTML = 'My Awardings';
