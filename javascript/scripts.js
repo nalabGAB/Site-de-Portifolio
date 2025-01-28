@@ -129,7 +129,7 @@ function pageLanguage() {
 
             // ABOUT
             document.querySelector('#about .title h1').innerHTML = 'Sobre Mim';
-            document.querySelector('#about .about-text p').innerHTML = 'Atualmente estou no ensino médio, estudando em uma escola com técnico integrado de Desenvolvimento de Sistemas. Quero me focar em aprender sobre desenvolvimento Back-End: principalmente Inteligência Artificial e Aprendizado de Máquina. Eu adoro passar o tempo me desafiando a programar novos projetos, e sou capaz de me adaptar a novos desafios e projetos. Minhas principais habilidades são: Inglês, Python, HTML, CSS, JavaScript, MySQL.';
+            document.querySelector('#about .about-text p').innerHTML = 'Atualmente estou no ensino médio, estudando em uma escola com técnico integrado de Desenvolvimento de Sistemas. Quero me focar em aprender sobre desenvolvimento Back-End: principalmente Inteligência Artificial e Aprendizado de Máquina. Eu adoro passar o tempo me desafiando a programar novos projetos, e sou capaz de me adaptar a novos desafios e projetos. Minhas principais habilidades são: Inglês, Python, HTML, CSS, JavaScript, MySQL. Eu também estou, atualmente, apredendo sobre Tensorflow e PyTorch.';
 
             // SKILLS
             document.querySelector('#skills .title h1').innerHTML = 'Competências';
@@ -158,6 +158,18 @@ function pageLanguage() {
             document.querySelector('#projects #project-card-quiz #project-title').innerHTML = 'Quiz Simples';
             document.querySelector('#projects #project-card-quiz #date').innerHTML = 'Junho 2024';
             document.querySelector('#projects #project-card-quiz p').innerHTML = 'Quiz feito na escola de ensino médio com técnico integrado - ETEC, para aprender sobre menus e mudança de telas em C#.';
+
+            document.querySelector('#projects #project-card-nova #project-title').innerHTML = 'Projeto NOVA';
+            document.querySelector('#projects #project-card-nova #date').innerHTML = 'Janeiro 2024';
+            document.querySelector('#projects #project-card-nova p').innerHTML = 'Acrônimo para "Neural Operations for Versatile Applications" (Operações Neurais para Aplicações Versáteis), é um projeto de Aprendizado de Máquina onde eu planejo criar vários LLMs para diferentes propósitos, incluindo: Julia - uma IA conversacional para melhorar a fluência em Inglês; Aria - uma IA capaz de fazer lives para Twitch. Está em desenvolvimento, sendo documentada através do Notion. Eu irei desponibilizar a documentação em breve.';
+
+            document.querySelector('#projects #project-card-julia #project-title').innerHTML = 'Julia AI (NOVA)';
+            document.querySelector('#projects #project-card-julia #date').innerHTML = 'Janeiro 2025';
+            document.querySelector('#projects #project-card-julia p').innerHTML = 'Parte do Projeto NOVA. Uma IA capaz de falar em Inglês, criando conversas e jogando jogos. Está em desenvolvimento, sendo documentada através do Notion. Eu irei desponibilizar a documentação em breve.';
+
+            document.querySelector('#projects #project-card-aria #project-title').innerHTML = 'Aria AI (NOVA)';
+            document.querySelector('#projects #project-card-aria #date').innerHTML = 'Janeiro 2025';
+            document.querySelector('#projects #project-card-aria p').innerHTML = 'Parte do Projeto NOVA. Uma IA que fala em Português, capaz de engajar com o chat da Twitch, jogando e criando entretenimento.';
 
             // CERTIFICATES
             document.querySelector('#certificates .title h1').innerHTML = 'Premiações';
@@ -206,7 +218,7 @@ function pageLanguage() {
 
             // ABOUT
             document.querySelector('#about .title h1').innerHTML = 'About Me';
-            document.querySelector('#about .about-text p').innerHTML = 'I am currently studying System Devlopment at a vocational-technical high-school. I want to focus on learning about Back-End development, mainly Artificial Intelligence and Machine Learning. I love spending time challenging myself with coding projects, and I\'m capable of adapting to new challenges and projects. My main skills are: English, Python, HTML, CSS, JavaScript, MySQL.';
+            document.querySelector('#about .about-text p').innerHTML = 'I am currently studying System Devlopment at a vocational-technical high-school. I want to focus on learning about Back-End development, mainly Artificial Intelligence and Machine Learning. I love spending time challenging myself with coding projects, and I\'m capable of adapting to new challenges and projects. My main skills are: English, Python, HTML, CSS, JavaScript, MySQL. My main skills are: English, Python, HTML, CSS, JavaScript, MySQL. And I\'m currently learning about Tensorflow and PyTorch.';
 
             // SKILLS
             document.querySelector('#skills .title h1').innerHTML = 'My Skills';
@@ -235,6 +247,18 @@ function pageLanguage() {
             document.querySelector('#projects #project-card-quiz #project-title').innerHTML = 'Simple Quiz';
             document.querySelector('#projects #project-card-quiz #date').innerHTML = 'June 2024';
             document.querySelector('#projects #project-card-quiz p').innerHTML = 'Quiz made at ETEC vocational-technical high-school to learn about menus and changing screens in C#.';
+
+            document.querySelector('#projects #project-card-nova #project-title').innerHTML = 'Project NOVA';
+            document.querySelector('#projects #project-card-nova #date').innerHTML = 'January 2024';
+            document.querySelector('#projects #project-card-nova p').innerHTML = 'Acronym for "Neural Operations for Versatile Applications", it\'s a Machine Learning project where I plan to build multiple LLMs for different porpouses, including: Julia - a conversational AI to improve English fluency; Aria - a streamer AI for Twitch. It\'s currently under development and documented through Notion. I will release the documentation soon.';
+
+            document.querySelector('#projects #project-card-julia #project-title').innerHTML = 'Julia AI (NOVA)';
+            document.querySelector('#projects #project-card-julia #date').innerHTML = 'January 2025';
+            document.querySelector('#projects #project-card-julia p').innerHTML = 'Part of the NOVA Project. An AI that can talk in English, creating conversations and playing games. It\'s currently under development and documented through Notion. I will release the documentation soon.';
+
+            document.querySelector('#projects #project-card-aria #project-title').innerHTML = 'Aria AI (NOVA)';
+            document.querySelector('#projects #project-card-aria #date').innerHTML = 'January 2025';
+            document.querySelector('#projects #project-card-aria p').innerHTML = 'Part of the NOVA Project. An AI that speaks in Portuguese and is able to engage with Twitch chat, playing games and creating entertainment.';
 
             // CERTIFICATES
             document.querySelector('#certificates .title h1').innerHTML = 'My Awardings';
