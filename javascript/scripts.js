@@ -167,10 +167,6 @@ function pageLanguage() {
             document.querySelector('#projects #project-card-gaia #date').innerHTML = 'Janeiro 2025';
             document.querySelector('#projects #project-card-gaia p').innerHTML = 'Parte do Projeto NOVA. Uma IA capaz de falar em Inglês, criando conversas e jogando jogos. Está em desenvolvimento, sendo documentada através do Notion. Eu irei desponibilizar a documentação em breve.';
 
-            document.querySelector('#projects #project-card-airis #project-title').innerHTML = 'Airis AI (NOVA)';
-            document.querySelector('#projects #project-card-airis #date').innerHTML = 'Janeiro 2025';
-            document.querySelector('#projects #project-card-airis p').innerHTML = 'Parte do Projeto NOVA. Uma IA que fala em Português, capaz de engajar com o chat da Twitch, jogando e criando entretenimento.';
-
             // CERTIFICATES
             document.querySelector('#certificates .title h1').innerHTML = 'Premiações';
 
@@ -255,10 +251,6 @@ function pageLanguage() {
             document.querySelector('#projects #project-card-gaia #project-title').innerHTML = 'Gaia AI (NOVA)';
             document.querySelector('#projects #project-card-gaia #date').innerHTML = 'January 2025';
             document.querySelector('#projects #project-card-gaia p').innerHTML = 'Part of the NOVA Project. An AI that can talk in English, creating conversations and playing games. It\'s currently under development and documented through Notion. I will release the documentation soon.';
-
-            document.querySelector('#projects #project-card-airis #project-title').innerHTML = 'Airis AI (NOVA)';
-            document.querySelector('#projects #project-card-airis #date').innerHTML = 'January 2025';
-            document.querySelector('#projects #project-card-airis p').innerHTML = 'Part of the NOVA Project. An AI that speaks in Portuguese and is able to engage with Twitch chat, playing games and creating entertainment.';
 
             // CERTIFICATES
             document.querySelector('#certificates .title h1').innerHTML = 'My Awardings';
